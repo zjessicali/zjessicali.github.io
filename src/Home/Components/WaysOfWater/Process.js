@@ -76,27 +76,32 @@ function Process() {
           </p>
         </div>
         <div className="mb-12">
-          <div className="flex flex-wrap justify-between w-full items-center">
-            <img
-              src="/ProjectImages/WaysOfWater/3Mockup1.png"
-              alt="Mockup"
-              className="max-w-[49.5%] h-full"
-            ></img>
-            <img
-              src="/ProjectImages/WaysOfWater/3Mockup2.png"
-              alt="Mockup"
-              className="max-w-[49.5%] h-full "
-            ></img>
-            <img
-              src="/ProjectImages/WaysOfWater/3Mockup3.png"
-              alt="Mockup"
-              className="max-w-[49.5%] h-full "
-            ></img>
-            <img
-              src="/ProjectImages/WaysOfWater/3Mockup4.png"
-              alt="Mockup"
-              className="max-w-[49.5%] h-full "
-            ></img>
+          <div className="flex justify-between w-full items-center gap-1">
+            <div>
+              <img
+                src="/ProjectImages/WaysOfWater/3Mockup1.png"
+                alt="Mockup"
+                className="w-full mb-1"
+              ></img>
+              <img
+                src="/ProjectImages/WaysOfWater/3Mockup3.png"
+                alt="Mockup"
+                className="w-full "
+              ></img>
+            </div>
+            <div>
+              <img
+                src="/ProjectImages/WaysOfWater/3Mockup2.png"
+                alt="Mockup"
+                className="w-full mb-1 "
+              ></img>
+
+              <img
+                src="/ProjectImages/WaysOfWater/3Mockup4.png"
+                alt="Mockup"
+                className="w-full "
+              ></img>
+            </div>
           </div>
           <p className="text-2xl my-3">
             Deconstructing, scattering, and layering.
@@ -108,6 +113,93 @@ function Process() {
             unpredictability, challenging viewers to decipher the composition
             rather than maintaining complete legibility. (My contribution: Image
             4)
+          </p>
+        </div>
+        <div className="mb-12">
+          <div className="flex justify-between w-full items-center gap-1">
+            <div>
+              <img
+                src="/ProjectImages/WaysOfWater/2Mockup1.png"
+                alt="Mockup"
+                className="w-full  mb-1"
+              ></img>
+              <img
+                src="/ProjectImages/WaysOfWater/2Mockup2.png"
+                alt="Mockup"
+                className="w-full  "
+              ></img>
+            </div>
+            <div>
+              <img
+                src="/ProjectImages/WaysOfWater/2Mockup3.png"
+                alt="Mockup"
+                className="w-full  mb-1"
+              ></img>
+              <img
+                src="/ProjectImages/WaysOfWater/2Mockup4.png"
+                alt="Mockup"
+                className="w-full "
+              ></img>
+            </div>
+          </div>
+          <p className="text-2xl my-3">Splicing and scattering.</p>
+          <p className="mb-5 md:text-lg">
+            We spliced out and scattered several elements in the composition
+            through both the image and text, to create a sense of chaos and
+            challenge readability. The random scattering also allows us to
+            create new pieces easily. (My contribution: Images 1, 3, and 4.)
+          </p>
+        </div>
+        <div className="mb-12">
+          <div className="flex justify-between w-full items-center gap-1">
+            <div>
+              <img
+                src="/ProjectImages/WaysOfWater/1Mockup1.png"
+                alt="Mockup"
+                className="w-full  mb-1"
+              ></img>
+              <img
+                src="/ProjectImages/WaysOfWater/1Mockup2.png"
+                alt="Mockup"
+                className="w-full  "
+              ></img>
+            </div>
+            <div>
+              <img
+                src="/ProjectImages/WaysOfWater/1Mockup3.png"
+                alt="Mockup"
+                className="w-full  mb-1"
+              ></img>
+              <img
+                src="/ProjectImages/WaysOfWater/1Mockup4.png"
+                alt="Mockup"
+                className="w-full "
+              ></img>
+            </div>
+          </div>
+          <p className="text-2xl my-3">
+            Layering, superimposing, and narrow columns.
+          </p>
+          <p className="mb-5 md:text-lg">
+            The use of layering adds dimension and depth, overlapping elements
+            to establish meaningful connections within the composition, while
+            the rigid grid prevents arbitrary component placement and aligns
+            with our inclination to experiment with unpredictability. (My
+            contribution: Images 3 and 4.)
+          </p>
+        </div>
+        <div className="">
+          <img
+            src="/ProjectImages/WaysOfWater/FinalPoster.png"
+            alt="Final Art Direction"
+            className="max-w-[600px] w-full"
+          ></img>
+          <p className="text-2xl my-3">Final direction.</p>
+          <p className="mb-5 md:text-lg">
+            We selected this art direction, emphasizing grids and the
+            superimposition of text and image, as it stood out among our three
+            options for its unique visual appeal. Additionally, we believed it
+            would translate seamlessly into the digital space.
           </p>
         </div>
       </div>

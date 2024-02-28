@@ -3,7 +3,7 @@ import ContentStragedy from "./ContentStragedy";
 import Process from "./Process";
 import DesignDecisions from "./DesignDecisions";
 // import Impact from "./Impact";
-// import Reflection from "./Reflection";
+import Reflection from "./Reflection";
 import { useEffect } from "react";
 
 function Content() {
@@ -17,8 +17,8 @@ function Content() {
       <ContentStragedy />
       <DesignDecisions />
       <Process />
-      {/* <Impact />
-      <Reflection /> */}
+
+      <Reflection />
     </div>
   );
 }

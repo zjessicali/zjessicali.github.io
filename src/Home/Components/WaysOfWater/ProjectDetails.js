@@ -8,7 +8,7 @@ function ProjectDetails() {
         <img
           alt="The Ways Of Water Microsite Mockup"
           src="/ProjectImages/WaysOfWater/Microsite.png"
-          className="h-72 w-full object-cover overflow-hidden
+          className=" w-full object-cover overflow-hidden
              md:w-full md:h-fit md:max-h-[900px]"
         ></img>
       </div>
