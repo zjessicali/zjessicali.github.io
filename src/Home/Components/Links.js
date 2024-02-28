@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Links() {
   const style =
     "font-Manrope text-2xl text-left px-6 pb-1 text-porple md:text-3xl lg:text-4xl md:px-5 flex items-end";
@@ -50,7 +52,7 @@ function Links() {
         </svg>
       </h1>
       <h1 className={style}>
-        <a href="TODO!!" target="_blank" rel="noopener noreferrer">
+        <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
           resumé
         </a>
       </h1>
