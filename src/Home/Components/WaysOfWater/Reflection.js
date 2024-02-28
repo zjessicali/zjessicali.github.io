@@ -8,17 +8,18 @@ function Reflection() {
       </div>
       <div className="px-10 pb-7 md:py-12 md:col-span-2">
         <p className="md:text-lg md:mb-3">
-          Through this hackathon, I was able to work with people in this field
-          with different experiences and gained new understandings.
-          Additionally, we worked with a mentor that taught us many things
-          throughout the process, such as how to conduct research and ideate
-          more creatively.
-        </p>
-        <p className="md:text-lg md:mb-3">
-          The time constraints of a one-week project forced us to work at a
-          rapid pace, limiting our time for extensive decision-making and
-          experimentation. However, this taught me how to work with my team to
-          quickly come to a decision together and work efficiently.
+          Through this project, I learned the iterative process of constantly
+          diverging and converging within a project to explore different
+          directions that would ultimately lead us to our final destination—the
+          finished product. In our limited time frame, I gained experience in
+          working within a deadline, striking a balance between our ambitions
+          and the realities of the project, and learning to discard ideas and
+          elements that weren't essential. Our explorations also emphasized the
+          importance of using references and inspirations from experts in the
+          field, steering away from designing solely in our heads. Given
+          additional time, I aim to refine certain aspects, such as intricately
+          choreographing animations across pages and enhancing overall harmony
+          through meticulous attention to detail.
         </p>
       </div>
       <div className="md:hidden h-12"></div>
