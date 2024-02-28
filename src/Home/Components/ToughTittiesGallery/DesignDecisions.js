@@ -2,7 +2,9 @@ function DesignDecisions() {
   return (
     <div className="border-b-2 border-porple text-porple font-manrope md:grid md:grid-cols-4">
       <div className="md:border-r-2 border-porple px-10 lg:px-20 pt-7 pb-3 md:py-12">
-        <h3 className="opacity-70 text-sm mb-3">Design Decisions</h3>
+        <h3 className="opacity-70 text-sm md:font-medium md:font-Manrope md:text-2xl">
+          Design Decisions
+        </h3>
       </div>
       <div className="px-10 pb-7 md:py-12 md:col-span-2">
         <section className="mb-12">

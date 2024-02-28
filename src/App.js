@@ -2,7 +2,7 @@ import "./App.css";
 import Main from "./Main";
 import Nav from "./Home/Components/Nav";
 import About from "./About/About";
-import WaysOfWater from "./About/WaysOfWater";
+import WaysOfWater from "./Home/Components/WaysOfWater/WaysOfWater";
 import Typology from "./About/Typology";
 
 import { Outlet, Routes, Route, BrowserRouter } from "react-router-dom";

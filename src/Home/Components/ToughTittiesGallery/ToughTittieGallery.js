@@ -1,4 +1,4 @@
-import ProjectHeaders from "../SharedComponents/ProjectHeaders";
+import ProjectHeaders from "./ProjectHeaders";
 import ProjectDetails from "./ProjectDetails";
 import Content from "./Content";
 import BackToTopButton from "../Top";

@@ -8,14 +8,24 @@ function GridContent() {
 
   const itemsPerRow = 4;
 
-  const [isHovered, setHovered] = useState(0);
+  const [hoveredItems, setIsHoveredArray] = useState(
+    Array(projects.length).fill(0)
+  );
 
-  const handleOnHover = () => {
-    setHovered(1);
+  const handleOnHover = (index) => {
+    setIsHoveredArray((prevArray) => {
+      const newArray = [...prevArray];
+      newArray[index] = 1;
+      return newArray;
+    });
   };
 
-  const handleOutHover = () => {
-    setHovered(0);
+  const handleOutHover = (index) => {
+    setIsHoveredArray((prevArray) => {
+      const newArray = [...prevArray];
+      newArray[index] = 0;
+      return newArray;
+    });
   };
 
   // Calculate the number of blank columns needed
@@ -30,21 +40,21 @@ function GridContent() {
             <Link
               to={item.linkpath}
               className="md:border-r-2 border-porple"
-              onMouseOver={handleOnHover}
-              onMouseOut={handleOutHover}
+              onMouseOver={() => handleOnHover(i)}
+              onMouseOut={() => handleOutHover(i)}
             >
               <div className="border-b-2 border-porple w-full aspect-w-1 aspect-h-1 overflow-hidden relative">
                 <div className="z-50 absolute md:flex flex-col justify-between h-full w-full hidden">
                   <h3
                     className={`font-Manrope md:text-sm lg:text-lg m-5 transition-opacity duration-300 ease-in-out ${
-                      isHovered ? "opacity-0" : ""
+                      hoveredItems[i] ? "opacity-0" : ""
                     }`}
                   >
                     {item.tags}
                   </h3>
                   <h2
                     className={`font-Manrope md:text-lg lg:text-2xl m-5 font-medium transition-colors duration-300 ease-linear ${
-                      isHovered ? "text-pinkie" : ""
+                      hoveredItems[i] ? "text-pinkie" : ""
                     }`}
                   >
                     {item.title}
@@ -53,7 +63,7 @@ function GridContent() {
 
                 <div
                   className={` transition-all duration-300 ease-out ${
-                    isHovered ? "opacity-100 scale-105" : "md:opacity-0"
+                    hoveredItems[i] ? "opacity-100 scale-105" : "md:opacity-0"
                   }`}
                 >
                   <img
