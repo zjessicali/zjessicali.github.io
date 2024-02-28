@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Main from "./Main";
+import Nav from "./Home/Components/Nav";
+import About from "./About/About";
+import WaysOfWater from "./About/WaysOfWater";
+import Typology from "./About/Typology";
+
+import { Outlet, Routes, Route, BrowserRouter } from "react-router-dom";
+import ToughTittiesGallery from "./Home/Components/ToughTittiesGallery/ToughTittieGallery";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Main />} />
+          <Route path="/about" element={<About />} />
+          <Route path="toughtittiesgallery" element={<ToughTittiesGallery />} />
+          <Route path="waysofwater" element={<WaysOfWater />} />
+          <Route path="typology" element={<Typology />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+function Layout() {
+  return (
+    <>
+      <Nav />
+      <Outlet />
+    </>
   );
 }
 
