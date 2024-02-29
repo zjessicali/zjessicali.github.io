@@ -46,14 +46,14 @@ function GridContent() {
               <div className="border-b-2 border-porple w-full aspect-w-1 aspect-h-1 overflow-hidden relative">
                 <div className="z-50 absolute md:flex flex-col justify-between h-full w-full hidden">
                   <h3
-                    className={`font-Manrope md:text-sm lg:text-lg m-5 transition-opacity duration-300 ease-in-out ${
+                    className={`font-Manrope md:text-sm lg:text-lg m-5 md:mx-4 transition-opacity duration-300 ease-in-out ${
                       hoveredItems[i] ? "opacity-0" : ""
                     }`}
                   >
                     {item.tags}
                   </h3>
                   <h2
-                    className={`font-Manrope md:text-lg lg:text-2xl m-5 font-medium transition-colors duration-300 ease-linear ${
+                    className={`font-Manrope md:text-lg lg:text-2xl m-5 md:m-4 font-medium transition-colors duration-300 ease-linear ${
                       hoveredItems[i] ? "text-pinkie" : ""
                     }`}
                   >
@@ -91,7 +91,7 @@ function GridContent() {
             className="col-span-1 border-b-2 md:border-r-2 border-porple w-full hidden md:block"
           ></div>
         ))}
-        <div className="col-span-1 border-b-2  border-porple w-full hidden md:block">
+        <div className="col-span-1 border-b-2  border-porple w-full hidden md:block md:p-4">
           <Links></Links>
         </div>
       </div>
