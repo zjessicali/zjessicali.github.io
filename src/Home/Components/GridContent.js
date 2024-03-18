@@ -69,7 +69,7 @@ function GridContent() {
                   <img
                     alt={item.title}
                     src={item.imgpath}
-                    className={`z-20 w-full object-cover md:h-max`}
+                    className={`z-20 w-full object-cover `}
                   ></img>
                   <div
                     className={`inset-0 z-30 md:opacity-50  md:bg-porple absolute`}
