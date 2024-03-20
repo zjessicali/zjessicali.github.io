@@ -8,69 +8,96 @@ function DesignDecisions() {
       </div>
       <div className="px-10 pb-7 md:py-12 md:col-span-2">
         <section className="mb-12">
-          <p className="text-2xl my-3">Clear navigation pop up.</p>
-          <p className="mb-3 md:text-lg">
-            Upon landing on the microsite, users are greeted with a lobby of
-            sorts, where they are introduced to the page and given hints on how
-            to navigate. From there, they can explore the exhibition's eight
-            different artists.
+          <p className="text-2xl mb-3">Clear navigation pop up.</p>
+          <p className="mb-5 md:text-lg">
+            To access to popular key ingredients, a shop by ingredient option
+            has been introduced to the navigation drop-down menu. Initially
+            extensive, Typology's dropdown menu was condensed into distinct
+            sections for improved user navigation and ease of access.
           </p>
-          <p className="md:text-lg">
-            The artist pages provide more detailed information about the artists
-            and the works they created for the exhibition. Users can also find
-            additional information about each piece on these pages.
-          </p>
+          <p className="text-xl mb-2">Current Navigation</p>
+          <img
+            src="/ProjectImages/Typology/before.png"
+            alt="Typology's current navigation bar."
+            className="mb-3"
+          ></img>
+          <p className="text-xl mb-2">Reworked Navigation</p>
+          <img
+            src="/ProjectImages/Typology/after.png"
+            alt="Our new navigation bar for Typology."
+            className="mb-5"
+          ></img>
         </section>
         <section className="mb-12">
-          <video controls>
-            <source src="videos/WaysOfWater/2Denial.mp4" type="video/mp4" />
-            Your browser does not support videos.
-          </video>
-          <p className="text-2xl my-3">
-            Denial and reward to create an immersive journey.
+          <p className="text-2xl mb-3">
+            New product listing page by ingredients
           </p>
-          <p className="md:text-lg">
-            We purposely kept the browsing hints vague to encourage users to
-            explore different methods to navigate the canvas. They can drag,
-            scroll, bring the cursor out of frame, or use arrow keys.
+          <p className="md:text-lg mb-3">
+            The target concern for each product is labeled on the PLP so that
+            the user can easily discern each product from another, especially
+            when an ingredient has many different uses.
           </p>
+          <img
+            src="/ProjectImages/Typology/PLP.png"
+            alt="An top portion of our PLP."
+            className="mb-5"
+          ></img>
         </section>
         <section className="mb-12">
-          <video controls>
-            <source src="videos/WaysOfWater/3TopNav.mp4" type="video/mp4" />
-            Your browser does not support videos.
-          </video>
-          <p className="text-2xl my-3">
-            Top navigation bar: Locate within the flow to other pages.
+          <p className="text-2xl mb-3">Target concern recommendations</p>
+          <p className="md:text-lg mb-3">
+            The PLP will recommend users similar ingredients to target their
+            skin concern as to allow users to explore other options and perhaps
+            discover new ingredients to help them out.
           </p>
-          <p className="md:text-lg">
-            It can also help users who are not interested in exploring through
-            the whole page to directly access the page they’re looking for.
-          </p>
+          <img
+            src="/ProjectImages/Typology/Target.png"
+            alt="An top portion of our PLP."
+            className="mb-5"
+          ></img>
         </section>
         <section className="mb-12">
-          <video controls>
-            <source src="videos/WaysOfWater/4MiniMap.mp4" type="video/mp4" />
-            Your browser does not support videos.
-          </video>
-          <p className="text-2xl my-3">Mini-map as secondary nav.</p>
-          <p className="md:text-lg">
-            The mini-map allows users to quickly access their desired section on
-            the page, or even use as a ‘map’ to guide them to the desired area.
+          <p className="text-2xl mb-3">Ingredients page search bar</p>
+          <p className="md:text-lg mb-3">
+            A smoother method for both new and returning customers to find more
+            information on the ingredients they would like in their products. By
+            replacing a glossary with a search bar, we are making use of Hick’s
+            Law, as to not overwhelm the user with confusing ingredient names.
           </p>
+          <img
+            src="/ProjectImages/Typology/Ingredients.png"
+            alt="An top portion of our PLP."
+            className="mb-5"
+          ></img>
         </section>
-        <section className="">
-          <video controls>
-            <source src="videos/WaysOfWater/5Water.mp4" type="video/mp4" />
-            Your browser does not support videos.
-          </video>
-          <p className="text-2xl my-3">
-            Water like elements to further immerse users into the exhibition.
+        <section className="mb-12">
+          <p className="text-2xl mb-3">
+            Visualized and interactive information
           </p>
-          <p className="md:text-lg">
-            To match the water theme, we incorporated details within elements
-            such as the wavy cursor or the bouncy secondary nav.
+          <p className="md:text-lg mb-3">
+            A visual graphic of key uses of each ingredient is displayed adding
+            additional text to allow meaningful interaction for the user to
+            easily understand and remember the key information.
           </p>
+          <img
+            src="/ProjectImages/Typology/InteractiveInformation.png"
+            alt="An top portion of our PLP."
+            className="mb-5"
+          ></img>
+        </section>
+        <section className="mb-12">
+          <p className="text-2xl mb-3">Related articles</p>
+          <p className="md:text-lg mb-3">
+            Articles by Typology’s experts about the ingredients are displayed
+            on the page to better connect Typology’s existing articles into the
+            users experience. Users who are interested can explore further as
+            they wish.
+          </p>
+          <img
+            src="/ProjectImages/Typology/Articles.png"
+            alt="An top portion of our PLP."
+            className=""
+          ></img>
         </section>
       </div>
     </div>

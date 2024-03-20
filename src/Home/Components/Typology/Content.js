@@ -19,9 +19,8 @@ function Content() {
       {/* <ContentStragedy /> */}
 
       <DesignDecisions />
-      {/* <Process />
 
-      <Reflection /> */}
+      <Reflection />
     </div>
   );
 }
