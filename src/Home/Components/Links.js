@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function Links() {
   const style =
-    "group font-Manrope text-2xl text-left px-6 pb-1 md:px-0 text-porple md:text-2xl lg:text-4xl  flex items-end md:hover:text-pinkie";
+    "group font-Manrope text-2xl text-left px-6 pb-1 md:px-0 text-porple md:text-2xl lg:text-4xl  flex items-end md:hover:text-pinkie transition-all duration-300 ease-out";
   return (
     <div className="py-6 md:py-0 bg-pinkie md:bg-white md:bottom-0 md:h-full md:flex md:flex-col md:justify-end ">
       <Link to="/about" className={style}>

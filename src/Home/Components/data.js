@@ -42,5 +42,8 @@ export const DATA = {
     { imgpath: "/ProjectImages/Art/8.png", alt: "Value explorations." },
     { imgpath: "/ProjectImages/Art/9.png", alt: "Value explorations." },
     { imgpath: "/ProjectImages/Art/10.png", alt: "Practicing poses." },
+
+    { imgpath: "/ProjectImages/Art/me.jpg", alt: "Self portrait." },
+    { imgpath: "/ProjectImages/Art/sketch.jpg", alt: "Reference study." },
   ],
 };
