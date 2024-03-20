@@ -3,6 +3,7 @@ import Main from "./Main";
 import Nav from "./Home/Components/Nav";
 import About from "./Home/Components/About/About";
 import WaysOfWater from "./Home/Components/WaysOfWater/WaysOfWater";
+import Typology from "./Home/Components/Typology/Typology";
 
 import {
   Outlet,
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="toughtittiesgallery" element={<ToughTittiesGallery />} />
           <Route path="waysofwater" element={<WaysOfWater />} />
+          <Route path="typology" element={<Typology />} />
         </Route>
       </Routes>
     </HashRouter>

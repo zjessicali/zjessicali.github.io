@@ -12,12 +12,12 @@ export const DATA = {
       tags: "Art Direction, Interaction Design",
       linkpath: "/waysofwater",
     },
-    //   {
-    //     imgpath: "/ProjectImages/typology.png",
-    //     title: "Typology",
-    //     tags: "UI/UX, Interaction Design",
-    //     linkpath: "/typology",
-    //   },
+    {
+      imgpath: "/ProjectImages/typology.png",
+      title: "Typology",
+      tags: "UI/UX, Interaction Design",
+      linkpath: "/typology",
+    },
   ],
   art: [
     { imgpath: "/ProjectImages/Art/1.png", alt: "Playing with watercolor." },
