@@ -12,7 +12,7 @@ function Process() {
       <div className="px-10 pb-7 md:py-12 md:col-span-2">
         <div className="mb-12">
           <img
-            src="/ProjectImages/WaysOfWater/Process.png"
+            src="/ProjectImages/WaysOfWater/process.png"
             className="w-full mb-3"
             alt="Process of Exploration"
           ></img>
