@@ -17,7 +17,7 @@ const Nav = () => {
         <Link to="/" className="font-Manrope">
           jessica ✧
         </Link>
-        <h6 className="font-Manrope opacity-50">seeking for summer 2024</h6>
+        <h6 className="font-Manrope opacity-50">seeking for summer 2025</h6>
       </div>
       <div></div>
     </>
