@@ -9,9 +9,10 @@ const Nav = () => {
         </Link>
         {/* <h6 className="font-Manrope">jessica ✧</h6> */}
         {/* <h6 className="font-Manrope">about</h6> */}
-        <Link to="about" className="font-Manrope md:hidden">
+        {/* JAN 2025 UPDATE: UNLINKED BC I HATE IT AND WANNA UPDATE IT LATER */}
+        {/* <Link to="about" className="font-Manrope md:hidden">
           about
-        </Link>
+        </Link> */}
       </div>
       <div className="hidden md:flex bg-pinkie z-50 justify-between md:px-10 lg:px-20 py-8 w-full h-12 items-center">
         <Link to="/" className="font-Manrope">
