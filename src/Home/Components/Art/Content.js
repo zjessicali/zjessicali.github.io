@@ -16,14 +16,14 @@ function Content() {
           <img
             alt="It's me!"
             src="/ProjectImages/Art/2.png"
-            className=" overflow-hidden z-20  w-full h-full object-cover md:h-max "
+            className=" overflow-hidden object-cover h-full "
           ></img>
         </div>
         <div className="border-b-2 border-r-2 border-porple w-full aspect-square overflow-hidden">
           <img
             alt="It's me!"
             src="/ProjectImages/Art/12.jpg"
-            className=" overflow-hidden z-20  w-full h-full object-cover md:h-max "
+            className=" overflow-hidden object-cover w-full "
           ></img>
         </div>
         <div className="border-b-2 border-r-2 border-porple w-full aspect-square overflow-hidden">

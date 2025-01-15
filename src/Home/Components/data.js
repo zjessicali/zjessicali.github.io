@@ -46,4 +46,18 @@ export const DATA = {
     { imgpath: "/ProjectImages/Art/me.jpg", alt: "Self portrait." },
     { imgpath: "/ProjectImages/Art/sketch.jpg", alt: "Reference study." },
   ],
+  web: [
+    {
+      imgpath: "/ProjectImages/WebDev/EunoiaUX.jpg",
+      title: "Eunoia UX Design Jam 2024",
+      tags: "Web Development",
+      linkpath: "https://eunoiadesign.ca/",
+    },
+    {
+      imgpath: "/ProjectImages/WebDev/Touchpoint.jpg",
+      title: "Touchpoint 2023",
+      tags: "Web Development",
+      linkpath: "https://www.sfu.ca/idc/2023/",
+    },
+  ],
 };

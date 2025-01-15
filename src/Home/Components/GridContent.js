@@ -5,11 +5,12 @@ import Links from "./Links.js";
 
 function GridContent() {
   const projects = DATA.projects;
-
   const itemsPerRow = 4;
+  const webs = DATA.web;
 
+  // HANDLE PROJECTS HOVER
   const [hoveredItems, setIsHoveredArray] = useState(
-    Array(projects.length).fill(0)
+    Array(projects.length + 1 + webs.length).fill(0)
   );
 
   const handleOnHover = (index) => {
@@ -32,6 +33,8 @@ function GridContent() {
     // Scroll to the top of the page when the component mounts
     window.scrollTo(0, 0);
   }, []);
+
+  // artwork stuff
   const artworks = DATA.art;
   let randArt = artworks[getRandomNumber()];
 
@@ -51,13 +54,16 @@ function GridContent() {
   };
 
   // Calculate the number of blank columns needed
+  const totalProjects = projects.length + 1 + webs.length;
   const blankColumns =
-    ((itemsPerRow - (projects.length % itemsPerRow)) % itemsPerRow) + 2;
+    // ((itemsPerRow - (projects.length % itemsPerRow)) % itemsPerRow) + 2; THIS IS OLD, DUNNO IF IT ACTUALLY WORKS
+    itemsPerRow - (totalProjects % itemsPerRow) - 1;
   console.log(blankColumns);
 
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-0 ">
+        {/* PROJECTS */}
         {projects.map((item, i) => {
           return (
             <Link
@@ -107,7 +113,7 @@ function GridContent() {
           );
         })}
 
-        {/* art grid */}
+        {/* ARTWORK */}
         <Link
           to="/art"
           className="border-r-2 border-white"
@@ -158,7 +164,59 @@ function GridContent() {
           </div>
         </Link>
 
-        {/* Add blank columns to fill the row */}
+        {/* WEB */}
+        {webs.map((item, i) => {
+          return (
+            <a
+              href={item.linkpath}
+              className="md:border-r-2 border-porple"
+              onMouseOver={() => handleOnHover(i + projects.length)}
+              onMouseOut={() => handleOutHover(i + projects.length)}
+            >
+              <div className="border-b-2 border-porple w-full aspect-w-1 aspect-h-1 overflow-hidden relative">
+                <div className="z-50 absolute md:flex flex-col justify-between h-full w-full hidden">
+                  <h3
+                    className={`font-Manrope md:text-sm lg:text-lg m-5 md:mx-4 transition-opacity duration-300 ease-in-out ${
+                      hoveredItems[i + projects.length] ? "opacity-0" : ""
+                    }`}
+                  >
+                    {item.tags}
+                  </h3>
+                  <h2
+                    className={`font-Manrope md:text-lg lg:text-2xl m-5 md:m-4 font-medium transition-colors duration-300 ease-linear ${
+                      hoveredItems[i + projects.length] ? "text-pinkie" : ""
+                    }`}
+                  >
+                    {item.title}
+                  </h2>
+                </div>
+
+                <div
+                  className={` transition-all duration-300 ease-out ${
+                    hoveredItems[i + projects.length]
+                      ? "opacity-100 scale-105"
+                      : "md:opacity-0"
+                  }`}
+                >
+                  <img
+                    alt={item.title}
+                    src={item.imgpath}
+                    className={`z-20 w-full object-cover `}
+                  ></img>
+                  <div
+                    className={`inset-0 z-30 md:opacity-50  md:bg-porple absolute`}
+                  ></div>
+                </div>
+              </div>
+              <div className="md:hidden h-24 w-full border-b-2 border-porple bg-white text-left px-6 py-5">
+                <h2 className="font-Manrope text-xl">{item.title}</h2>
+                <h3 className="font-Manrope opacity-80">{item.tags}</h3>
+              </div>
+            </a>
+          );
+        })}
+
+        {/* Add blank cells to fill the row */}
         {Array.from({ length: blankColumns }).map((_, index) => (
           <div
             key={`blank-${index}`}
