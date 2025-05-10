@@ -18,8 +18,8 @@ function Header() {
         </h2>
       </div>
       <h1 className="font-Manrope font-medium text-left text-2xl absolute bottom-9 w-80 leading-8 ml-6 animate-fadeUp md:hidden">
-        I’m Jessica, a ux and visual designer creating thoughtful and memorable
-        experiences through intention and meaning. ✧
+        Hi, it’s Jessica Li, a designer creating meaningful and memorable
+        experiences. ✧
       </h1>
     </header>
   );
