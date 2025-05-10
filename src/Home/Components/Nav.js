@@ -16,7 +16,7 @@ const Nav = () => {
         <Link to="/" className="font-Manrope  animate-fadeUp">
           ✧ jessica
         </Link>
-        <div className="opacity-50 animate-fadeUp flex">
+        <div className="animate-fadeUp flex">
           <h1 className="font-Manrope px-4">
             <a href="https://www.linkedin.com/in/jessica-li-029281201/">
               linkedin

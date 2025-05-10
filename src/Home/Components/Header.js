@@ -1,18 +1,18 @@
 function Header() {
   return (
-    <header className="bg-pinkie h-[40vh] relative md:h-[78vh] border-b-2 border-porple">
+    <header className="bg-pinkie h-[40vh] relative md:h-[78vh] border-b-2 border-grey">
       <div className="hidden absolute md:block bottom-16 md:ml-10 lg:ml-20">
         <h1
           className="font-Manrope font-medium text-left text-3xl w-[550px]  animate-fadeUp
-                     md:leading-tight  
+                     md:leading-tight  md:w-[700px]
                     lg:text-5xl lg:w-[1200px] lg:leading-tight "
         >
           I’m Jessica, a ux and visual designer creating thoughtful and
           memorable experiences through intention and meaning. ✧
         </h1>
         <h2
-          className="font-Manrope font-regular bottom-18 
-                    lg:text-2xl md:mt-10"
+          className="font-Manrope font-regular bottom-18  md:mt-6
+                    lg:text-2xl lg:mt-10"
         >
           Previously designing @ YVR Vancouver Airport Authority.
         </h2>

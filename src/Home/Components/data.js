@@ -1,7 +1,7 @@
 export const DATA = {
   projects: [
     {
-      imgpath: "/ProjectImages/ToughTittiesGallery/ToughTitties.png",
+      imgpath: "/ProjectImages/ToughTittiesGallery/ToughTittiesIcon.png",
       title: "Tough Titties Gallery",
       tags: "Hackathon, UX Design",
       linkpath: "/toughtittiesgallery",
