@@ -1,12 +1,15 @@
 function DesignDecisions() {
   return (
-    <div className="border-b-2 border-porple text-porple font-manrope md:grid md:grid-cols-4">
-      <div className="md:border-r-2 border-porple px-10 lg:px-20 pt-7 pb-3 md:py-12">
-        <h3 className="opacity-70 text-sm mb-3 md:font-medium md:font-Manrope md:text-2xl">
+    <div className="md:grid md:grid-cols-4 md:gap-5 lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
+      <section className="mb-4">
+        <p
+          className="font-Manrope lg:text-lg text-grey 
+        uppercase border border-grey text-center w-5/6 rounded-full lg:py-[2px]"
+        >
           Features
-        </h3>
-      </div>
-      <div className="px-10 pb-7 md:py-12 md:col-span-2">
+        </p>
+      </section>
+      <div className="md:col-span-2">
         <section className="mb-12">
           <p className="text-2xl mb-3">Clear navigation pop up.</p>
           <p className="mb-5 md:text-lg">
