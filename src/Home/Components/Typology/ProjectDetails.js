@@ -1,10 +1,7 @@
 function ProjectDetails() {
   return (
     <div className="bg-white py-6 md:py-10 lg:py-20">
-      <div
-        className="bg-white 
-        md:col-span-3 md:overflow-hidden px-6 lg:px-20 md:px-10 "
-      >
+      <div className="md:col-span-3 md:overflow-hidden px-6 lg:px-20 md:px-10 ">
         <img
           alt="The Ways Of Water Microsite Mockup"
           src="/ProjectImages/typology.png"

@@ -1,13 +1,16 @@
 function Reflection() {
   return (
-    <section className="border-b-2 border-porple md:grid md:grid-cols-4 ">
-      <div className="md:border-r-2 border-porple px-10 lg:px-20 pt-7 pb-3 md:py-12">
-        <h1 className="opacity-70 text-sm md:font-medium md:font-Manrope md:text-2xl">
+    <section className="md:grid md:grid-cols-4 md:gap-5 lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
+      <section className="mb-4">
+        <p
+          className="font-Manrope lg:text-lg text-grey 
+        uppercase border border-grey text-center w-5/6 rounded-full lg:py-[2px]"
+        >
           Reflection
-        </h1>
-      </div>
-      <div className="px-10 pb-7 md:py-12 md:col-span-2">
-        <p className="md:text-lg md:mb-3">
+        </p>
+      </section>
+      <div className="md:col-span-2">
+        <p className="md:text-lg ">
           Through this project, I learned the iterative process of constantly
           diverging and converging within a project to explore different
           directions that would ultimately lead us to our final destination—the
