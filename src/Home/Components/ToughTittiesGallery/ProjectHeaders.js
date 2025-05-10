@@ -1,6 +1,6 @@
 function ProjectHeaders() {
   return (
-    <header className="h-[25vh] bg-pinkie relative border-b-2 border-porple md:h-[60vh]">
+    <header className="h-[25vh] bg-pinkie relative border-b border-grey md:h-[60vh]">
       <div className="absolute bottom-9 ml-6 md:mx-10 lg:mx-20">
         <h1
           className="font-Manrope font-medium text-left text-2xl  w-80 leading-8 
