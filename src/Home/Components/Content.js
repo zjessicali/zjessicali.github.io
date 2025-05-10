@@ -8,10 +8,10 @@ function Content() {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 mx-6 md:mx-10 lg:mx-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 mx-6 md:mx-10 lg:mx-20 my-6 md:my-8 lg:my-16">
         {projects.map((item, i) => {
           return (
-            <Link to={item.linkpath} className="mt-6 md:mt-8 md:mb-11 lg:mt-16">
+            <Link to={item.linkpath} className="md:mb-4">
               <div className=" relative">
                 <img
                   alt={item.title}
