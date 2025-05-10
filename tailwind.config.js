@@ -7,7 +7,7 @@ export const theme = {
       pinkie: "#F0C9D4",
       porple: "#2C1733",
       white: "#EEEBEE",
-      grey: "#8C8288",
+      grey: "#7E787E",
     },
     fontFamily: {
       Manrope: ["Manrope", "sans-serif"],

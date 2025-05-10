@@ -43,6 +43,11 @@ function Content() {
           );
         })}
       </div>
+      <div className="hidden md:flex border-t border-grey h-14 items-center justify-center">
+        <p className="font-Manrope text-grey">
+          portfolio designed and coded by yours truly.
+        </p>
+      </div>
     </>
   );
 }

@@ -3,7 +3,7 @@ function Links() {
   const style =
     "group font-Manrope text-2xl text-left px-6 pb-1 md:px-0 text-porple md:text-2xl lg:text-4xl  flex items-end md:hover:text-pinkie transition-all duration-300 ease-out";
   return (
-    <div className="py-6 md:hidden bg-pinkie">
+    <div className="mt-6 py-6 md:hidden bg-pinkie border-t border-grey">
       <h1 className={style}>
         <a href="https://www.linkedin.com/in/jessica-li-029281201/">linkedin</a>
         <svg
