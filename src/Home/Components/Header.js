@@ -12,7 +12,8 @@ function Header() {
         </h1>
         <h2
           className="font-Manrope font-regular bottom-18  md:mt-6
-                    lg:text-2xl lg:mt-8"
+                    lg:text-2xl lg:mt-8
+                     animate-fadeUp"
         >
           Previously designing @ YVR Vancouver Airport Authority.
         </h2>

@@ -6,7 +6,7 @@ function ProjectDetails() {
           alt="The Ways Of Water Microsite Mockup"
           src="/ProjectImages/WaysOfWater/Microsite.png"
           className=" w-full object-cover overflow-hidden
-             md:w-full md:h-fit md:max-h-[900px]"
+             md:w-full  md:max-h-[900px]"
         ></img>
       </div>
       <section className="px-6 md:px-10 lg:px-20 py-6 md:pt-8 lg:pt-12 bg-white ">
