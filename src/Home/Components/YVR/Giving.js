@@ -29,7 +29,7 @@ function Giving() {
             alt="Giving Thanks Campaign"
           ></img>
         </section>
-        <p className="font-Manrope mb-5 text-porple md:text-lg py-3"></p>
+        <p className="font-Manrope text-porple md:text-lg py-3"></p>
       </section>
     </div>
   );

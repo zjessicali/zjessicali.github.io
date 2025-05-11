@@ -1,6 +1,6 @@
 function ProjectDetails() {
   return (
-    <div className="bg-white py-6 md:py-10 lg:py-20">
+    <div className="bg-white my-6 md:my-10 lg:my-20">
       <section className="px-6 md:px-10 lg:px-20 py-6 md:pt-8 lg:pt-12 bg-white ">
         <div className="grid grid-cols-2 md:grid-cols-4 md:gap-5 gap-y-4">
           <div>

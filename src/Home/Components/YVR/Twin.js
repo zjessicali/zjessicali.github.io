@@ -6,7 +6,7 @@ function Twin() {
           className="font-Manrope lg:text-lg text-grey 
               uppercase border border-grey text-center w-2/3 md:w-5/6 rounded-full lg:py-[2px]"
         >
-          Summer Twin
+          Digital Twin
         </p>
       </section>
 

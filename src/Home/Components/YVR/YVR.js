@@ -15,7 +15,7 @@ function YVR() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <div className="bg-white">
       <ProjectHeaders></ProjectHeaders>
       <Overview></Overview>
       <Swift></Swift>
@@ -24,7 +24,7 @@ function YVR() {
       <Fair></Fair>
       <Twin></Twin>
       <BackToTopButton></BackToTopButton>
-    </>
+    </div>
   );
 }
 

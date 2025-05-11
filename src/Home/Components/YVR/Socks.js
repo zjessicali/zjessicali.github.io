@@ -14,7 +14,7 @@ function Socks() {
         <section className="">
           <img src="/ProjectImages/YVR/Socks.png" alt="Socks"></img>
         </section>
-        <p className="font-Manrope mb-5 text-porple md:text-lg py-3"></p>
+        <p className="font-Manrope text-porple md:text-lg py-3"></p>
       </section>
     </div>
   );

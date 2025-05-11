@@ -29,7 +29,7 @@ function Swift() {
             alt="Taylor Swift Activation"
           ></img>
         </section>
-        <p className="font-Manrope mb-5 text-porple md:text-lg py-3">
+        <p className="font-Manrope text-porple md:text-lg py-3">
           This project involved creating graphical assets for a campaign
           welcoming Taylor Swift fans to Vancouver for the T Swift concert.
         </p>

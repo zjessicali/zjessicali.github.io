@@ -1,6 +1,6 @@
 function Research() {
   return (
-    <section className="md:grid md:grid-cols-4 md:gap-5 lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
+    <section className="bg-white md:grid md:grid-cols-4 md:gap-5 lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
       <section className="mb-4">
         <p
           className="font-Manrope lg:text-lg text-grey 

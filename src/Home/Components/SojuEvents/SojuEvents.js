@@ -12,13 +12,13 @@ function YVR() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <div className="bg-white">
       <ProjectHeaders></ProjectHeaders>
       <Client></Client>
       <Research></Research>
       <Recommendations></Recommendations>
       <BackToTopButton></BackToTopButton>
-    </>
+    </div>
   );
 }
 
