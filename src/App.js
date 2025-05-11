@@ -5,6 +5,7 @@ import About from "./Home/Components/About/About";
 import WaysOfWater from "./Home/Components/WaysOfWater/WaysOfWater";
 import Typology from "./Home/Components/Typology/Typology";
 import YVR from "./Home/Components/YVR/YVR";
+import SojuEvents from "./Home/Components/SojuEvents/SojuEvents";
 
 import {
   Outlet,
@@ -26,6 +27,7 @@ function App() {
           <Route path="waysofwater" element={<WaysOfWater />} />
           <Route path="typology" element={<Typology />} />
           <Route path="YVRAirport" element={<YVR />} />
+          <Route path="sojuevents" element={<SojuEvents />} />
         </Route>
       </Routes>
     </HashRouter>

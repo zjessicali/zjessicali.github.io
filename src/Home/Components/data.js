@@ -1,6 +1,12 @@
 export const DATA = {
   projects: [
     {
+      imgpath: "/ProjectImages/Soju.png",
+      title: "Soju Events",
+      tags: "User Research",
+      linkpath: "/SojuEvents",
+    },
+    {
       imgpath: "/ProjectImages/YVR.png",
       title: "YVR Airport",
       tags: "Internship, Visual Design",
