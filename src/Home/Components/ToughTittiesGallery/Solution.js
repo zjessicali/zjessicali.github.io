@@ -1,12 +1,15 @@
 function Solution() {
   return (
-    <div className="border-b-2 border-porple text-porple font-manrope md:grid md:grid-cols-4 ">
-      <div className="md:border-r-2 border-porple px-10 lg:px-20 pt-7 pb-3 md:py-12">
-        <h3 className="opacity-70 text-sm md:font-medium md:font-Manrope md:text-2xl ">
-          Our Solution
-        </h3>
-      </div>
-      <div className="px-10 pb-7 md:py-12 md:col-span-2">
+    <div className="md:grid md:grid-cols-4 md:gap-5  lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
+      <section className="mb-4">
+        <p
+          className="font-Manrope lg:text-lg text-grey 
+        uppercase border border-grey text-center w-2/3 md:w-5/6 rounded-full lg:py-[2px]"
+        >
+          Solution
+        </p>
+      </section>
+      <div className="md:col-span-2">
         <p className="text-2xl mb-3 md:mb-7">
           Our proposed design is an interactive space where customers can
           connect with one another.

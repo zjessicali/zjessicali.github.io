@@ -1,13 +1,15 @@
 function Framing() {
   return (
-    <div className="md:grid md:grid-cols-4 border-b-2 border-porple">
-      <section
-        className="hidden md:block md:col-span-1 border-r-2 border-porple lg:px-20 px-10 py-12
-            font-medium font-Manrope text-2xl opacity-70"
-      >
-        Framing
+    <div className="md:grid md:grid-cols-4 md:gap-5 lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
+      <section className="mb-4">
+        <p
+          className="font-Manrope lg:text-lg text-grey 
+        uppercase border border-grey text-center w-5/6 rounded-full lg:py-[2px]"
+        >
+          Framing
+        </p>
       </section>
-      <section className="px-12 py-12 col-span-2">
+      <section className="col-span-2">
         <p className="font-Manrope text-2xl mb-3 text-porple ">
           How might we allow users to easily explore different products based on
           the ingredients they need for their skincare?

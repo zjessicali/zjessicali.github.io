@@ -1,7 +1,19 @@
 export const DATA = {
   projects: [
     {
-      imgpath: "/ProjectImages/ToughTittiesGallery/ToughTitties.png",
+      imgpath: "/ProjectImages/Soju.png",
+      title: "Soju Events",
+      tags: "User Research",
+      linkpath: "/SojuEvents",
+    },
+    {
+      imgpath: "/ProjectImages/YVR.png",
+      title: "YVR Airport",
+      tags: "Internship, Visual Design",
+      linkpath: "/YVRAirport",
+    },
+    {
+      imgpath: "/ProjectImages/ToughTittiesGallery/ToughTittiesIcon.png",
       title: "Tough Titties Gallery",
       tags: "Hackathon, UX Design",
       linkpath: "/toughtittiesgallery",
@@ -18,33 +30,6 @@ export const DATA = {
       tags: "UI/UX, Interaction Design",
       linkpath: "/typology",
     },
-  ],
-  art: [
-    { imgpath: "/ProjectImages/Art/1.png", alt: "Playing with watercolor." },
-    {
-      imgpath: "/ProjectImages/Art/2.png",
-      alt: "A digital painting from reference.",
-    },
-    {
-      imgpath: "/ProjectImages/Art/3.png",
-      alt: "A more styllized digital painting from reference.",
-    },
-    {
-      imgpath: "/ProjectImages/Art/4.png",
-      alt: "A cute painting for a friend",
-    },
-    { imgpath: "/ProjectImages/Art/5.png", alt: "Exploring 90s anime styles." },
-    { imgpath: "/ProjectImages/Art/6.png", alt: "Exploring 90s anime styles." },
-    {
-      imgpath: "/ProjectImages/Art/7.jpg",
-      alt: "A digital painting I did for a friend.",
-    },
-    { imgpath: "/ProjectImages/Art/8.png", alt: "Value explorations." },
-    { imgpath: "/ProjectImages/Art/9.png", alt: "Value explorations." },
-    { imgpath: "/ProjectImages/Art/10.png", alt: "Practicing poses." },
-
-    { imgpath: "/ProjectImages/Art/me.jpg", alt: "Self portrait." },
-    { imgpath: "/ProjectImages/Art/sketch.jpg", alt: "Reference study." },
   ],
   web: [
     {

@@ -4,7 +4,8 @@ import Nav from "./Home/Components/Nav";
 import About from "./Home/Components/About/About";
 import WaysOfWater from "./Home/Components/WaysOfWater/WaysOfWater";
 import Typology from "./Home/Components/Typology/Typology";
-import Art from "./Home/Components/Art/Art";
+import YVR from "./Home/Components/YVR/YVR";
+import SojuEvents from "./Home/Components/SojuEvents/SojuEvents";
 
 import {
   Outlet,
@@ -25,7 +26,8 @@ function App() {
           <Route path="toughtittiesgallery" element={<ToughTittiesGallery />} />
           <Route path="waysofwater" element={<WaysOfWater />} />
           <Route path="typology" element={<Typology />} />
-          <Route path="art" element={<Art />} />
+          <Route path="YVRAirport" element={<YVR />} />
+          <Route path="sojuevents" element={<SojuEvents />} />
         </Route>
       </Routes>
     </HashRouter>

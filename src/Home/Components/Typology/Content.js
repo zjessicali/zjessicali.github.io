@@ -1,5 +1,5 @@
 import Overview from "./Overview";
-import ContentStragedy from "./ContentStragedy";
+
 import Process from "./Process";
 import DesignDecisions from "./DesignDecisions";
 // import Impact from "./Impact";
@@ -16,7 +16,6 @@ function Content() {
     <div className="bg-white text-porple font-Manrope">
       <Overview />
       <Framing />
-      {/* <ContentStragedy /> */}
 
       <DesignDecisions />
 

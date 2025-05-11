@@ -3,12 +3,7 @@ function Links() {
   const style =
     "group font-Manrope text-2xl text-left px-6 pb-1 md:px-0 text-porple md:text-2xl lg:text-4xl  flex items-end md:hover:text-pinkie transition-all duration-300 ease-out";
   return (
-    <div className="py-6 md:py-0 bg-pinkie md:bg-white md:bottom-0 md:w-full md:aspect-square md:flex md:flex-col md:justify-end ">
-      {/* JAN 2025 UPDATE: UNLINKED BC I HATE IT AND WANNA UPDATE IT LATER */}
-      {/* <Link to="/about" className={style}>
-        about
-      </Link> */}
-
+    <div className="mt-6 py-6 md:hidden bg-pinkie border-t border-grey">
       <h1 className={style}>
         <a href="https://www.linkedin.com/in/jessica-li-029281201/">linkedin</a>
         <svg
@@ -62,11 +57,7 @@ function Links() {
           <path d="M1 1L14 14L27 1" stroke-width="2.25" />
         </svg>
       </h1>
-      <h1 className={style}>
-        <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
-          resumé
-        </a>
-      </h1>
+
       <div className="h-12 md:h-0"></div>
     </div>
   );
