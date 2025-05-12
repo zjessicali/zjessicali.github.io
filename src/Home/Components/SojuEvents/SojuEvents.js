@@ -5,6 +5,7 @@ import BackToTopButton from "../Top";
 import { useEffect } from "react";
 import Research from "./Research";
 import Recommendations from "./Recommendations";
+import ProjectDetails from "./ProjectDetails";
 
 function YVR() {
   useEffect(() => {
@@ -14,6 +15,7 @@ function YVR() {
   return (
     <div className="bg-white">
       <ProjectHeaders></ProjectHeaders>
+      <ProjectDetails></ProjectDetails>
       <Client></Client>
       <Research></Research>
       <Recommendations></Recommendations>

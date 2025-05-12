@@ -15,7 +15,7 @@ function Research() {
           experience across the website for new users wanting to go to Soju
           Sunday for the first time?
         </p>
-        <p className="font-Manrope my-5 text-porple md:text-lg">
+        <p className="font-Manrope mt-5 text-porple md:text-lg">
           We did research with 9 participants aged 20-23 that have heard of Soju
           Sunday but had never attended. These users were also very familiar
           with mobile devices, as we conducted testing solely on mobile phones.
