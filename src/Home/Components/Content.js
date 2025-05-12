@@ -20,10 +20,13 @@ function Content() {
 
                 <div className="">
                   <h2
-                    className={`font-Manrope md:text-lg lg:text-2xl my-2 md:mt-4  transition-colors duration-300 ease-linear `}
+                    className={`font-Manrope md:text-lg lg:text-2xl mt-2 md:my-1 md:mt-3  transition-colors duration-300 ease-linear `}
                   >
                     {item.title}
                   </h2>
+                  <h3 className="font-Manrope text-xs text-grey">
+                    {item.tags}
+                  </h3>
                 </div>
               </div>
             </Link>
