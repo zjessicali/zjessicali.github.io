@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function Content() {
   const projects = DATA.projects;
+  const webs = DATA.web;
 
   return (
     <>
@@ -30,6 +31,30 @@ function Content() {
                 </div>
               </div>
             </Link>
+          );
+        })}
+        {webs.map((item, i) => {
+          return (
+            <a href={item.linkpath} className="">
+              <div className=" relative">
+                <img
+                  alt={item.title}
+                  src={item.imgpath}
+                  className={`w-full object-cover rounded-md`}
+                ></img>
+
+                <div className="">
+                  <h2
+                    className={`font-Manrope md:text-lg lg:text-2xl mt-2 md:my-1 md:mt-3  transition-colors duration-300 ease-linear `}
+                  >
+                    {item.title}
+                  </h2>
+                  <h3 className="font-Manrope text-xs text-grey">
+                    {item.tags}
+                  </h3>
+                </div>
+              </div>
+            </a>
           );
         })}
       </div>
