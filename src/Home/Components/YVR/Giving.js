@@ -30,13 +30,13 @@ function Giving() {
           ></img>
         </section>
         <p className="font-Manrope text-porple md:text-lg py-3">
-          This fall marketing campaign involved creating an art direction that
+          In this fall marketing campaign, I created the art direction that
           would encourage airport guests to reflect on life's blessings, feel
           joy, and evoke happy memories. For this project, I created postcards
-          for guests to send to their loved ones around the world, 'mail' boxes
-          to send the postcards, and all other assets. The installation, the
-          hanging wire, the large leaf and mushroom cutouts shown in the photos,
-          were made according to my art direction.
+          for guests to send to their loved ones around the world, 'mailboxes'
+          to send the postcards, and all other assets, excluding the
+          installation. This direction tied into the whimsical feeling of fall
+          and friendship, along with YVR's brand and identity as an airport.
         </p>
       </section>
     </div>
