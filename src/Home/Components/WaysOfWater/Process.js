@@ -32,10 +32,6 @@ function Process() {
               Creating unpredictability through typography.
             </h2>
             <h2 className="text-xl mb-4 md:text-2xl">
-              Customers like to share their experiences and motivations on Etsy
-              reviews.
-            </h2>
-            <h2 className="text-xl mb-4 md:text-2xl">
               Using narrow grid columns.
             </h2>
             <h2 className="text-xl mb-4 md:text-2xl">
