@@ -6,7 +6,7 @@ function Process() {
           className="font-Manrope lg:text-lg text-grey 
         uppercase border border-grey text-center w-5/6 rounded-full lg:py-[2px]"
         >
-          Reflection
+          Process
         </p>
       </section>
       <div className="md:col-span-2">

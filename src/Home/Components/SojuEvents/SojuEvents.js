@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import Research from "./Research";
 import Recommendations from "./Recommendations";
 import ProjectDetails from "./ProjectDetails";
+import Reflection from "./Reflection";
 
 function YVR() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function YVR() {
       <Research></Research>
       <Recommendations></Recommendations>
       <BackToTopButton></BackToTopButton>
+      <Reflection></Reflection>
     </div>
   );
 }

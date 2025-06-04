@@ -10,18 +10,7 @@ function Reflection() {
         </p>
       </section>
       <div className="md:col-span-2">
-        <p className="font-Manrope mt-5 text-porple md:text-lg">
-          Through this project, I enjoyed the process of seeing what new users
-          think about the Soju Events website, the things they care about more
-          as a user compared to what I might car about as a designer. We tried
-          our best to analyze the large variety of observations we collected to
-          transform them into concrete problems with solutions for our client to
-          implement within the scope of the project. Of course, there are a lot
-          more problems we can conver more intensively, for example, the
-          distracting visual inconsistnsies,which we recommended developing a
-          style guide.
-        </p>
-        <p className="font-Manrope mt-5 text-porple md:text-lg">
+        <p className="font-Manrope text-porple md:text-lg">
           Through this project, I really enjoyed gaining insight into how new
           users perceive the Soju Events website, especially noticing how their
           priorities as users differ from mine as a designer. We carefully
