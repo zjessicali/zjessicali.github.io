@@ -31,7 +31,9 @@ function Swift() {
         </section>
         <p className="font-Manrope text-porple md:text-lg py-3">
           This project involved creating graphical assets for a campaign
-          welcoming Taylor Swift fans to Vancouver for the T Swift concert.
+          welcoming Taylor Swift fans to Vancouver for the T Swift concert. I
+          created the Taylor Swift cut out, the lollipop stand signage, and the
+          piano vinyl wrap.
         </p>
       </section>
     </div>

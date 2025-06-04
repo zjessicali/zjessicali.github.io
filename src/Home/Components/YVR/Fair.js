@@ -26,7 +26,11 @@ function Fair() {
             alt="Summer Fair Activation"
           ></img>
         </section>
-        <p className="font-Manrope text-porple md:text-lg py-3"></p>
+        <p className="font-Manrope text-porple md:text-lg py-3">
+          I created the overarching look and feel for the YVR Summer Fair,
+          another marketing activation, working with pastel colors and florals
+          to create a fun and lively experience for guests.
+        </p>
       </section>
     </div>
   );

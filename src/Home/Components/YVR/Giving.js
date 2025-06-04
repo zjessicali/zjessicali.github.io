@@ -29,7 +29,15 @@ function Giving() {
             alt="Giving Thanks Campaign"
           ></img>
         </section>
-        <p className="font-Manrope text-porple md:text-lg py-3"></p>
+        <p className="font-Manrope text-porple md:text-lg py-3">
+          This fall marketing campaign involved creating an art direction that
+          would encourage airport guests to reflect on life's blessings, feel
+          joy, and evoke happy memories. For this project, I created postcards
+          for guests to send to their loved ones around the world, 'mail' boxes
+          to send the postcards, and all other assets. The installation, the
+          hanging wire, the large leaf and mushroom cutouts shown in the photos,
+          were made according to my art direction.
+        </p>
       </section>
     </div>
   );

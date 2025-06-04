@@ -22,7 +22,7 @@ function YVR() {
       <Giving></Giving>
       <Socks></Socks>
       <Fair></Fair>
-      <Twin></Twin>
+      {/* <Twin></Twin> */}
       <BackToTopButton></BackToTopButton>
     </div>
   );
