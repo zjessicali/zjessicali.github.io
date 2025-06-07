@@ -1,17 +1,12 @@
 export const DATA = {
   projects: [
-    {
-      imgpath: "/ProjectImages/Soju.png",
-      title: "Soju Events",
-      tags: "User Research",
-      linkpath: "/SojuEvents",
-    },
-    {
-      imgpath: "/ProjectImages/YVR.png",
-      title: "YVR Airport",
-      tags: "Internship, Visual Design",
-      linkpath: "/YVRAirport",
-    },
+    // {
+    //   imgpath: "/ProjectImages/Soju.png",
+    //   title: "Soju Events",
+    //   tags: "User Research",
+    //   linkpath: "/SojuEvents",
+    // },
+
     {
       imgpath: "/ProjectImages/ToughTittiesGallery/ToughTittiesIcon.png",
       title: "Tough Titties Gallery",
@@ -29,6 +24,12 @@ export const DATA = {
       title: "Typology",
       tags: "UI/UX, Interaction Design",
       linkpath: "/typology",
+    },
+    {
+      imgpath: "/ProjectImages/YVR.png",
+      title: "YVR Airport",
+      tags: "Internship, Visual Design",
+      linkpath: "/YVRAirport",
     },
   ],
   web: [
