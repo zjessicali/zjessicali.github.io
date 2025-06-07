@@ -21,7 +21,7 @@ function ProjectDetails() {
               Interaction Design <br />
               Prototyping
               <br />
-              Scheduling
+              Project Management
             </p>
           </div>
           <div className="mt-0">
@@ -53,7 +53,7 @@ function ProjectDetails() {
             <p className="font-manrope text-sm md:text-base">
               Carmen Law
               <br />
-              AAmiko Tong
+              Amiko Tong
               <br />
               Sarah Pang
             </p>
