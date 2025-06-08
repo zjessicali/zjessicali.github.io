@@ -45,7 +45,7 @@ function DesignDecisions() {
         <section className="mb-12">
           <video controls>
             <source
-              src="videos/ToughTittiesGallery/LandingPage.mp4"
+              src="videos/ToughTittiesGallery/1_landing.mp4"
               type="video/mp4"
             />
             Your browser does not support videos.
@@ -64,7 +64,7 @@ function DesignDecisions() {
         <section className="mb-12">
           <video controls>
             <source
-              src="videos/ToughTittiesGallery/coded.mp4"
+              src="videos/ToughTittiesGallery/w_code.mp4"
               type="video/mp4"
             />
             Your browser does not support videos.
@@ -82,7 +82,7 @@ function DesignDecisions() {
         <section className="mb-12">
           <video controls>
             <source
-              src="videos/ToughTittiesGallery/customize.mp4"
+              src="videos/ToughTittiesGallery/3_customize.mp4"
               type="video/mp4"
             />
             Your browser does not support videos.
@@ -103,7 +103,7 @@ function DesignDecisions() {
         <section className="mb-12">
           <video controls>
             <source
-              src="videos/ToughTittiesGallery/sticker.mp4"
+              src="videos/ToughTittiesGallery/4_sticker.mp4"
               type="video/mp4"
             />
             Your browser does not support videos.
