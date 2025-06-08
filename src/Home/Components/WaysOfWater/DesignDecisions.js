@@ -13,7 +13,7 @@ function DesignDecisions() {
         <section className="mb-12">
           <video controls>
             <source
-              src="videos/WaysOfWater/1Deconstruct.mp4"
+              src="videos/WaysOfWater/1_deconstruct.mp4"
               type="video/mp4"
             />
             Your browser does not support videos. TO REPLACE
@@ -36,7 +36,7 @@ function DesignDecisions() {
         </section>
         <section className="mb-12">
           <video controls>
-            <source src="videos/WaysOfWater/2Denial.mp4" type="video/mp4" />
+            <source src="videos/WaysOfWater/2_denial.mp4" type="video/mp4" />
             Your browser does not support videos.
           </video>
           <p className="text-2xl my-3">
@@ -50,7 +50,7 @@ function DesignDecisions() {
         </section>
         <section className="mb-12">
           <video controls>
-            <source src="videos/WaysOfWater/3TopNav.mp4" type="video/mp4" />
+            <source src="videos/WaysOfWater/3_topnav.mp4" type="video/mp4" />
             Your browser does not support videos.
           </video>
           <p className="text-2xl my-3">
@@ -63,7 +63,7 @@ function DesignDecisions() {
         </section>
         <section className="mb-12">
           <video controls>
-            <source src="videos/WaysOfWater/4MiniMap.mp4" type="video/mp4" />
+            <source src="videos/WaysOfWater/4_minimap.mp4" type="video/mp4" />
             Your browser does not support videos.
           </video>
           <p className="text-2xl my-3">Mini-map as secondary nav.</p>
@@ -74,7 +74,7 @@ function DesignDecisions() {
         </section>
         <section className="">
           <video controls>
-            <source src="videos/WaysOfWater/5Water.mp4" type="video/mp4" />
+            <source src="videos/WaysOfWater/5_water.mp4" type="video/mp4" />
             Your browser does not support videos.
           </video>
           <p className="text-2xl my-3">

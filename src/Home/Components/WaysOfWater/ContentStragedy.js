@@ -11,10 +11,7 @@ function ContentStragedy() {
       </div>
       <div className="md:col-span-2">
         <video controls>
-          <source
-            src="videos/WaysOfWater/fullwalkthrough.mp4"
-            type="video/mp4"
-          />
+          <source src="videos/WaysOfWater/demo.mp4" type="video/mp4" />
           Your browser does not support videos.
         </video>
         <p className="text-2xl my-3">

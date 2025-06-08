@@ -15,7 +15,7 @@ function Solution() {
           connect with one another.
         </p>
         <video controls>
-          <source src="videos/ToughTittiesGallery/demo.mp4" type="video/mp4" />
+          <source src="videos/ToughTittiesGallery/flow.mp4" type="video/mp4" />
           Your browser does not support videos.
         </video>
         <p className="mt-7 mb-3 md:text-lg">
