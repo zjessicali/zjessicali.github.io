@@ -1,3 +1,5 @@
+import AutoplayVideo from "../Autoplay.js";
+
 function DesignDecisions() {
   return (
     <div className="md:grid md:grid-cols-4 md:gap-5  lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
@@ -43,13 +45,7 @@ function DesignDecisions() {
           </p>
         </section>
         <section className="mb-12">
-          <video controls>
-            <source
-              src="videos/ToughTittiesGallery/1_landing.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support videos.
-          </video>
+          <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402283/1_landing_gln5ep.mp4" />
           <p className="text-2xl my-3 ">
             Upon entering the gallery, the user will be welcomed by 10 random
             pairs or titties.
@@ -62,13 +58,7 @@ function DesignDecisions() {
           </p>
         </section>
         <section className="mb-12">
-          <video controls>
-            <source
-              src="videos/ToughTittiesGallery/w_code.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support videos.
-          </video>
+          <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402282/2_code_v1ssbl.mp4" />
           <p className="text-2xl my-3">
             The post-purchase card comes back into play when creating your own
             story.
@@ -80,13 +70,8 @@ function DesignDecisions() {
           </p>
         </section>
         <section className="mb-12">
-          <video controls>
-            <source
-              src="videos/ToughTittiesGallery/3_customize.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support videos.
-          </video>
+          <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402283/3_customize_zptnud.mp4" />
+
           <p className="text-2xl my-3">
             Breast customizations allow for a large variety of combinations for
             users to resonate with.
@@ -101,13 +86,8 @@ function DesignDecisions() {
           </p>
         </section>
         <section className="mb-12">
-          <video controls>
-            <source
-              src="videos/ToughTittiesGallery/4_sticker.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support videos.
-          </video>
+          <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402283/4_sticker_m204nc.mp4" />
+
           <p className="text-2xl my-3">
             Interactive stories connect people, offering reassurance and
             support.

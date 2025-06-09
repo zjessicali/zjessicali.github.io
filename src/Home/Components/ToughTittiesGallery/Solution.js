@@ -1,3 +1,5 @@
+import AutoplayVideo from "../Autoplay";
+
 function Solution() {
   return (
     <div className="md:grid md:grid-cols-4 md:gap-5  lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
@@ -14,10 +16,8 @@ function Solution() {
           Our proposed design is an interactive space where customers can
           connect with one another.
         </p>
-        <video controls>
-          <source src="videos/ToughTittiesGallery/flow.mp4" type="video/mp4" />
-          Your browser does not support videos.
-        </video>
+        <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402287/flow_dv9iyf.mp4"></AutoplayVideo>
+
         <p className="mt-7 mb-3 md:text-lg">
           Here, they can share personal stories and experiences. Our solution
           uses breast icons to represent individuals, and displays written

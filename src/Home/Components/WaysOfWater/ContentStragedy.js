@@ -1,3 +1,5 @@
+import AutoplayVideo from "../Autoplay";
+
 function ContentStragedy() {
   return (
     <section className="md:grid md:grid-cols-4 md:gap-5  lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
@@ -10,10 +12,8 @@ function ContentStragedy() {
         </p>
       </div>
       <div className="md:col-span-2">
-        <video controls>
-          <source src="videos/WaysOfWater/demo.mp4" type="video/mp4" />
-          Your browser does not support videos.
-        </video>
+        <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402642/demo_pi9pj5.mp4"></AutoplayVideo>
+
         <p className="text-2xl my-3">
           Create a post-event microsite to serve as an immersive archive for the
           audience to relive and explore further.

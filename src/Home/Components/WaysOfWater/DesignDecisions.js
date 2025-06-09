@@ -1,3 +1,5 @@
+import AutoplayVideo from "../Autoplay";
+
 function DesignDecisions() {
   return (
     <div className="md:grid md:grid-cols-4 md:gap-5 lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
@@ -11,13 +13,7 @@ function DesignDecisions() {
       </section>
       <div className="md:col-span-2">
         <section className="mb-12">
-          <video controls>
-            <source
-              src="videos/WaysOfWater/1_deconstruct.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support videos. TO REPLACE
-          </video>
+          <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402637/1_deconstruct_oi1zqf.mp4"></AutoplayVideo>
           <p className="text-2xl my-3">
             Deconstructing the composition to transition smoothly to the next
             page.
@@ -35,10 +31,7 @@ function DesignDecisions() {
           </p>
         </section>
         <section className="mb-12">
-          <video controls>
-            <source src="videos/WaysOfWater/2_denial.mp4" type="video/mp4" />
-            Your browser does not support videos.
-          </video>
+          <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402638/2_denial_rorrif.mp4"></AutoplayVideo>
           <p className="text-2xl my-3">
             Denial and reward to create an immersive journey.
           </p>
@@ -49,10 +42,7 @@ function DesignDecisions() {
           </p>
         </section>
         <section className="mb-12">
-          <video controls>
-            <source src="videos/WaysOfWater/3_topnav.mp4" type="video/mp4" />
-            Your browser does not support videos.
-          </video>
+          <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402645/3_topnav_e06crg.mp4"></AutoplayVideo>
           <p className="text-2xl my-3">
             Top navigation bar: Locate within the flow to other pages.
           </p>
@@ -62,10 +52,7 @@ function DesignDecisions() {
           </p>
         </section>
         <section className="mb-12">
-          <video controls>
-            <source src="videos/WaysOfWater/4_minimap.mp4" type="video/mp4" />
-            Your browser does not support videos.
-          </video>
+          <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402636/4_minimap_oanjqf.mp4"></AutoplayVideo>
           <p className="text-2xl my-3">Mini-map as secondary nav.</p>
           <p className="md:text-lg">
             The mini-map allows users to quickly access their desired section on
@@ -73,10 +60,7 @@ function DesignDecisions() {
           </p>
         </section>
         <section className="">
-          <video controls>
-            <source src="videos/WaysOfWater/5_water.mp4" type="video/mp4" />
-            Your browser does not support videos.
-          </video>
+          <AutoplayVideo src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402642/5_water_au4fg9.mp4"></AutoplayVideo>
           <p className="text-2xl my-3">
             Water like elements to further immerse users into the exhibition.
           </p>
