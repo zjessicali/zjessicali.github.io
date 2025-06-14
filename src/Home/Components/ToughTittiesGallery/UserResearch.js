@@ -30,7 +30,7 @@ function UserResearch() {
             </h2>
           </div>
           <img
-            src="/ProjectImages/ToughTittiesGallery/researchFigjam.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860983/researchFigjam_klna4c.jpg"
             alt="User research done for Tough Titties Design."
           ></img>
         </div>

@@ -18,7 +18,7 @@ function Impact() {
           {/* can for loop here */}
           <div className="flex my-4">
             <img
-              src="/ProjectImages/ToughTittiesGallery/persona1.png"
+              src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861074/persona1_ahdptd.png"
               alt="User Memoji"
               className="w-1/6 h-full md:w-[10%]"
             ></img>
@@ -32,7 +32,7 @@ function Impact() {
           </div>
           <div className="flex my-4">
             <img
-              src="/ProjectImages/ToughTittiesGallery/persona2.png"
+              src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861074/persona2_vyxalz.png"
               alt="User Memoji"
               className="w-1/6 h-full md:w-[10%]"
             ></img>
@@ -45,7 +45,7 @@ function Impact() {
           </div>
           <div className="flex my-4">
             <img
-              src="/ProjectImages/ToughTittiesGallery/persona3.png"
+              src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861076/persona3_gkoaj0.png"
               alt="User Memoji"
               className="w-1/6 h-full md:w-[10%]"
             ></img>

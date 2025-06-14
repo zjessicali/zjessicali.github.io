@@ -17,12 +17,12 @@ function Client() {
         </p>
         <div className="flex justify-between w-full items-center">
           <img
-            src="/ProjectImages/ToughTittiesGallery/client1.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860831/client1_rvha3p.jpg"
             alt="Sista Hood stickers"
             className="max-w-[49%] h-full"
           ></img>
           <img
-            src="/ProjectImages/ToughTittiesGallery/client2.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860980/client2_xz5ucu.jpg"
             alt="Tough Titties stickers"
             className="max-w-[49%] h-full "
           ></img>

@@ -4,7 +4,7 @@ function ProjectDetails() {
       <div className="md:col-span-3 md:overflow-hidden px-6 lg:px-20 md:px-10 ">
         <img
           alt="Tough Titties Gallery Mockup"
-          src="/ProjectImages/ToughTittiesGallery/ToughTitties.png"
+          src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861217/ToughTitties_bk7h23.jpg"
           className="h-72 w-full object-cover overflow-hidden
              md:w-full md:h-fit md:max-h-[900px]"
         ></img>

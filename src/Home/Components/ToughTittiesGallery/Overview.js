@@ -18,7 +18,7 @@ function Overview() {
         </p>
         <img
           alt="Tough Titties Gallery Logo"
-          src="/ProjectImages/ToughTittiesGallery/GalleryLogo.png"
+          src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860764/GalleryLogo_hddxuk.png"
         ></img>
       </section>
     </div>

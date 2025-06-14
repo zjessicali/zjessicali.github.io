@@ -14,7 +14,7 @@ function DesignDecisions() {
       <div className="md:col-span-2">
         <section className="mb-12">
           <img
-            src="/ProjectImages/ToughTittiesGallery/testing.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861051/testing_oiwsu9.png"
             alt="Results of UI Testing."
           ></img>
           <p className="text-2xl my-3">
@@ -30,7 +30,7 @@ function DesignDecisions() {
         </section>
         <section className="mb-12">
           <img
-            src="/ProjectImages/ToughTittiesGallery/PostPurchaseMockup.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861054/PostPurchaseMockup_jvpq1g.jpg"
             alt="Mockup of our post purchase card."
           ></img>
           <p className="text-2xl my-3">
@@ -122,12 +122,12 @@ function DesignDecisions() {
               </div>
             </div>
             <img
-              src="/ProjectImages/ToughTittiesGallery/client1.png"
+              src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860831/client1_rvha3p.jpg"
               alt="Sista Hood stickers"
               className="w-1/3 h-full object-cover pr-1"
             ></img>
             <img
-              src="/ProjectImages/ToughTittiesGallery/client2.png"
+              src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860980/client2_xz5ucu.jpg"
               alt="Tough Titties stickers"
               className="w-1/3 h-full object-cover pr-1"
             ></img>
