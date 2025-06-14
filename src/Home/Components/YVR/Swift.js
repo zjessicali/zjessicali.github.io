@@ -13,19 +13,19 @@ function Swift() {
       <section className="col-span-2">
         <section className="grid grid-cols-2 gap-2 ">
           <img
-            src="/ProjectImages/YVR/Swift1.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863326/Swift1_ebgnka.jpg"
             alt="Taylor Swift Activation"
           ></img>
           <img
-            src="/ProjectImages/YVR/Swift2.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863328/Swift2_vwi0rv.jpg"
             alt="Taylor Swift Activation"
           ></img>
           <img
-            src="/ProjectImages/YVR/Swift3.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863322/Swift3_w59oqi.jpg"
             alt="Taylor Swift Activation"
           ></img>
           <img
-            src="/ProjectImages/YVR/Swift4.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863323/Swift4_ykpsbt.jpg"
             alt="Taylor Swift Activation"
           ></img>
         </section>

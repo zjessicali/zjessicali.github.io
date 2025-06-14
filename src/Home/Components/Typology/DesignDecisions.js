@@ -26,7 +26,7 @@ function DesignDecisions() {
           ></img>
           <p className="text-xl mb-2">Reworked Navigation</p>
           <img
-            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862736/before_ubpkpr.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862780/after_yertxa.jpg"
             alt="Our new navigation bar for Typology."
             className="mb-5"
           ></img>

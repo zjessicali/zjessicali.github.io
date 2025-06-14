@@ -12,12 +12,12 @@ function Twin() {
 
       <section className="col-span-2">
         <img
-          src="/ProjectImages/YVR/Twin1.jpg"
+          src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863803/Twin1_s4y2ch.jpg"
           alt="Digital Twin Login UI Desktop"
           className=" object-contain pb-2"
         ></img>
         <img
-          src="/ProjectImages/YVR/Twin3.jpg"
+          src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863808/Twin3_m7ujfm.jpg"
           alt="Digital Twin Land Acknowledgement"
           className=" object-contain"
         ></img>

@@ -12,17 +12,20 @@ function Fair() {
 
       <section className="col-span-2">
         <section className="grid grid-cols-2 gap-2 ">
-          <img src="/ProjectImages/YVR/Fair1.jpg" alt="Summer Activation"></img>
           <img
-            src="/ProjectImages/YVR/Fair2.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863697/Fair1_eh3tip.jpg"
+            alt="Summer Activation"
+          ></img>
+          <img
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863702/Fair2_pmnggl.jpg"
             alt="Summer Fair Activation"
           ></img>
           <img
-            src="/ProjectImages/YVR/Fair3.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863702/Fair3_pkwngr.jpg"
             alt="Summer Fair Activation"
           ></img>
           <img
-            src="/ProjectImages/YVR/Fair4.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863677/Fair4_kpvgy7.jpg"
             alt="Summer Fair Activation"
           ></img>
         </section>

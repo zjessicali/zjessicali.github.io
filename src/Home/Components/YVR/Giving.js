@@ -13,19 +13,19 @@ function Giving() {
       <section className="col-span-2">
         <section className="grid grid-cols-2 gap-2 ">
           <img
-            src="/ProjectImages/YVR/Giving1.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863475/Giving1_uee5y2.jpg"
             alt="Giving Thanks Campaign"
           ></img>
           <img
-            src="/ProjectImages/YVR/Giving2.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863472/Giving2_zgzy9w.jpg"
             alt="Giving Thanks Campaign"
           ></img>
           <img
-            src="/ProjectImages/YVR/Giving3.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863467/Giving3_chuiyz.jpg"
             alt="Giving Thanks Campaign"
           ></img>
           <img
-            src="/ProjectImages/YVR/Giving4.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863470/Giving4_kgzh6d.jpg"
             alt="Giving Thanks Campaign"
           ></img>
         </section>

@@ -12,7 +12,10 @@ function Socks() {
 
       <section className="col-span-2">
         <section className="">
-          <img src="/ProjectImages/YVR/Socks.png" alt="Socks"></img>
+          <img
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863571/Socks_xjvqen.png"
+            alt="Socks"
+          ></img>
         </section>
         <p className="font-Manrope text-porple md:text-lg py-3"></p>
       </section>
