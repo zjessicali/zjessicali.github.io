@@ -20,13 +20,13 @@ function DesignDecisions() {
           </p>
           <p className="text-xl mb-2">Current Navigation</p>
           <img
-            src="/ProjectImages/Typology/before.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862736/before_ubpkpr.jpg"
             alt="Typology's current navigation bar."
             className="mb-3"
           ></img>
           <p className="text-xl mb-2">Reworked Navigation</p>
           <img
-            src="/ProjectImages/Typology/after.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862736/before_ubpkpr.jpg"
             alt="Our new navigation bar for Typology."
             className="mb-5"
           ></img>
@@ -41,7 +41,7 @@ function DesignDecisions() {
             when an ingredient has many different uses.
           </p>
           <img
-            src="/ProjectImages/Typology/PLP.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862808/PLP_fbdfjq.jpg"
             alt="An top portion of our PLP."
             className="mb-5"
           ></img>
@@ -54,7 +54,7 @@ function DesignDecisions() {
             discover new ingredients to help them out.
           </p>
           <img
-            src="/ProjectImages/Typology/Target.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862836/Target_bt3k7w.png"
             alt="An top portion of our PLP."
             className="mb-5"
           ></img>
@@ -68,7 +68,7 @@ function DesignDecisions() {
             Law, as to not overwhelm the user with confusing ingredient names.
           </p>
           <img
-            src="/ProjectImages/Typology/Ingredients.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862861/Ingredients_ta7gv3.jpg"
             alt="An top portion of our PLP."
             className="mb-5"
           ></img>
@@ -83,7 +83,7 @@ function DesignDecisions() {
             easily understand and remember the key information.
           </p>
           <img
-            src="/ProjectImages/Typology/InteractiveInformation.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862896/InteractiveInformation_kvxf4j.jpg"
             alt="An top portion of our PLP."
             className="mb-5"
           ></img>
@@ -97,7 +97,7 @@ function DesignDecisions() {
             they wish.
           </p>
           <img
-            src="/ProjectImages/Typology/Articles.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862934/Articles_ryvt4g.jpg"
             alt="An top portion of our PLP."
             className=""
           ></img>

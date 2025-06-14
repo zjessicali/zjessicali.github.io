@@ -12,7 +12,7 @@ function Overview() {
       <section className="col-span-2">
         <img
           alt="Tough Titties Gallery Logo"
-          src="/ProjectImages/Typology/Overview.png"
+          src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862610/Overview_c1aso3.jpg"
         ></img>
         <p className="font-Manrope my-5 text-porple md:text-lg">
           "Our philosophy is not to add anything to our products to make them

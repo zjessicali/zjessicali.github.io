@@ -12,7 +12,7 @@ function Process() {
       <div className="md:col-span-2">
         <div className="mb-12">
           <img
-            src="/ProjectImages/WaysOfWater/process.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861766/process_flr54k.png"
             className="w-full mb-3"
             alt="Process of Exploration"
           ></img>
@@ -48,17 +48,17 @@ function Process() {
         <div className="mb-12">
           <div className="flex justify-between w-full items-center">
             <img
-              src="/ProjectImages/WaysOfWater/FinalPoster.png"
+              src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861838/FinalPoster_egywdc.jpg"
               alt="Final Poster"
               className="max-w-[33%] h-full"
             ></img>
             <img
-              src="/ProjectImages/WaysOfWater/Poster2.png"
+              src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861949/Poster2_a3mkro.jpg"
               alt="Poster Exploration"
               className="max-w-[31%] h-full "
             ></img>
             <img
-              src="/ProjectImages/WaysOfWater/Poster3.png"
+              src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861996/Poster3_jxhfkm.jpg"
               alt="Poster Exploration"
               className="max-w-[31%] h-full "
             ></img>
@@ -75,25 +75,25 @@ function Process() {
           <div className="flex justify-between w-full items-center gap-1">
             <div>
               <img
-                src="/ProjectImages/WaysOfWater/3Mockup1.png"
+                src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862039/3Mockup1_kjbweg.png"
                 alt="Mockup"
                 className="w-full mb-1"
               ></img>
               <img
-                src="/ProjectImages/WaysOfWater/3Mockup3.png"
+                src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862043/3Mockup3_subqoo.png"
                 alt="Mockup"
                 className="w-full "
               ></img>
             </div>
             <div>
               <img
-                src="/ProjectImages/WaysOfWater/3Mockup2.png"
+                src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862041/3Mockup2_snfg9n.png"
                 alt="Mockup"
                 className="w-full mb-1 "
               ></img>
 
               <img
-                src="/ProjectImages/WaysOfWater/3Mockup4.png"
+                src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862045/3Mockup4_aflumb.png"
                 alt="Mockup"
                 className="w-full "
               ></img>
@@ -115,24 +115,24 @@ function Process() {
           <div className="flex justify-between w-full items-center gap-1">
             <div>
               <img
-                src="/ProjectImages/WaysOfWater/2Mockup1.png"
+                src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862189/2Mockup1_abpxhw.png"
                 alt="Mockup"
                 className="w-full  mb-1"
               ></img>
               <img
-                src="/ProjectImages/WaysOfWater/2Mockup2.png"
+                src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862187/2Mockup2_ucjvwg.png"
                 alt="Mockup"
                 className="w-full  "
               ></img>
             </div>
             <div>
               <img
-                src="/ProjectImages/WaysOfWater/2Mockup3.png"
+                src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862185/2Mockup3_akjq5b.png"
                 alt="Mockup"
                 className="w-full  mb-1"
               ></img>
               <img
-                src="/ProjectImages/WaysOfWater/2Mockup4.png"
+                src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749862191/2Mockup4_er3rlv.png"
                 alt="Mockup"
                 className="w-full "
               ></img>
@@ -186,7 +186,7 @@ function Process() {
         </div>
         <div className="">
           <img
-            src="/ProjectImages/WaysOfWater/FinalPoster.png"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861838/FinalPoster_egywdc.jpg"
             alt="Final Art Direction"
             className="max-w-[600px] w-full"
           ></img>

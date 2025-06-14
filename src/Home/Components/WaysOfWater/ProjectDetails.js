@@ -4,7 +4,7 @@ function ProjectDetails() {
       <div className="md:col-span-3md:overflow-hidden px-6 lg:px-20 md:px-10">
         <img
           alt="The Ways Of Water Microsite Mockup"
-          src="/ProjectImages/WaysOfWater/Microsite.png"
+          src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749861589/Microsite_nuflzh.jpg"
           className=" w-full object-cover overflow-hidden
              md:w-full  md:max-h-[900px]"
         ></img>
