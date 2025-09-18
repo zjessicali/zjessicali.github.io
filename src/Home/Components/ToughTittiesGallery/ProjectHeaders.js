@@ -9,8 +9,8 @@ function ProjectHeaders() {
           Tough Titties Gallery
         </h1>
         <h2 className="hidden md:block font-Manrope text-2xl w-[750px]">
-          An interactive safe space by building a sense of community for women.
-          4th place out of 128.
+          Fostering community and self-expression among women through
+          personalized storytelling.
         </h2>
       </div>
     </header>

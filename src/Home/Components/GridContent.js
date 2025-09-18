@@ -85,58 +85,6 @@ function GridContent() {
             </Link>
           );
         })}
-
-        {/* WEB */}
-        {webs.map((item, i) => {
-          return (
-            <a
-              href={item.linkpath}
-              className="md:border-r-2 border-porple"
-              onMouseOver={() => handleOnHover(i + projects.length)}
-              onMouseOut={() => handleOutHover(i + projects.length)}
-            >
-              <div className="border-b-2 border-porple w-full aspect-w-1 aspect-h-1 overflow-hidden relative">
-                <div className="z-50 absolute md:flex flex-col justify-between h-full w-full hidden">
-                  <h3
-                    className={`font-Manrope md:text-sm lg:text-lg m-5 md:mx-4 transition-opacity duration-300 ease-in-out ${
-                      hoveredItems[i + projects.length] ? "opacity-0" : ""
-                    }`}
-                  >
-                    {item.tags}
-                  </h3>
-                  <h2
-                    className={`font-Manrope md:text-lg lg:text-2xl m-5 md:m-4 font-medium transition-colors duration-300 ease-linear ${
-                      hoveredItems[i + projects.length] ? "text-pinkie" : ""
-                    }`}
-                  >
-                    {item.title}
-                  </h2>
-                </div>
-
-                <div
-                  className={` transition-all duration-300 ease-out ${
-                    hoveredItems[i + projects.length]
-                      ? "opacity-100 scale-105"
-                      : "md:opacity-0"
-                  }`}
-                >
-                  <img
-                    alt={item.title}
-                    src={item.imgpath}
-                    className={`z-20 w-full object-cover `}
-                  ></img>
-                  <div
-                    className={`inset-0 z-30 md:opacity-50  md:bg-porple absolute`}
-                  ></div>
-                </div>
-              </div>
-              <div className="md:hidden h-24 w-full border-b-2 border-porple bg-white text-left px-6 py-5">
-                <h2 className="font-Manrope text-xl">{item.title}</h2>
-                <h3 className="font-Manrope opacity-80">{item.tags}</h3>
-              </div>
-            </a>
-          );
-        })}
       </div>
       <div className="z-50 hidden md:flex bottom-0 bg-white  px-6 w-full h-12 "></div>
     </>

@@ -28,6 +28,28 @@ function Client() {
           ></img>
         </div>
       </div>
+      <div className="mb-14">
+        <h1 className="text-2xl mb-3 md:text-2xl">Business needs.</h1>
+        <p className="mb-7 md:text-lg">
+          After interviewing Hands, we identified several pain points which led
+          to insightful design directions, including:
+        </p>
+        <div className="mb-7 md:mb-10">
+          <h2 className="text-xl mb-4 md:text-2xl">
+            1. Defining the distinction between brand and identity.
+          </h2>
+          <h2 className="text-xl mb-4 md:text-2xl">
+            2. Bridging the physical and digital touchpoints.
+          </h2>
+          <h2 className="text-xl mb-4 md:text-2xl">
+            3. Building community connections to the audience.
+          </h2>
+        </div>
+        <img
+          src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860983/researchFigjam_klna4c.jpg"
+          alt="User research done for Tough Titties Design."
+        ></img>
+      </div>
     </section>
   );
 }

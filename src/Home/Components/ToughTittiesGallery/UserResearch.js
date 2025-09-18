@@ -6,59 +6,34 @@ function UserResearch() {
           className="font-Manrope lg:text-lg text-grey 
         uppercase border border-grey text-center w-2/3 md:w-5/6 rounded-full lg:py-[2px]"
         >
-          Overview
+          User Research
         </p>
       </section>
       <div className="md:col-span-2">
-        <div className="mb-14">
-          <h1 className="text-2xl mb-3 md:text-2xl">
-            Initial interview with Hands.
-          </h1>
-          <p className="mb-7 md:text-lg">
-            After interviewing Hands, we identified several pain points which
-            led to insightful design directions, including:
-          </p>
-          <div className="mb-7 md:mb-10">
-            <h2 className="text-xl mb-4 md:text-2xl">
-              Defining the distinction between brand and identity.
-            </h2>
-            <h2 className="text-xl mb-4 md:text-2xl">
-              Bridging the physical and digital touchpoints.
-            </h2>
-            <h2 className="text-xl mb-4 md:text-2xl">
-              Building community connections to the audience.
-            </h2>
-          </div>
-          <img
-            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860983/researchFigjam_klna4c.jpg"
-            alt="User research done for Tough Titties Design."
-          ></img>
-        </div>
         <div>
           <h1 className="text-2xl mb-3 md:text-2xl">
-            Conducting additional research.
+            Conducting user research.
           </h1>
           <p className="mb-8 md:text-lg">
-            For a deeper dive, we analyzed Hands' Etsy{" "}
-            <br className="md:hidden" />
-            and Instagram, engaging with individuals interested in her causes
-            and products.
+            After analyzing Hand’s Etsy and Instagram pages, we wanted to
+            understand user pain points deeper, so we interviewed with
+            both previous and potential buyers of Hands' products.
           </p>
           <p className="mb-3">We found that:</p>
           <div className="mb-8">
             <h2 className="text-xl mb-4 md:text-2xl">
-              Around 50% of Hands’ customers write purchase notes to her during
-              online shopping.{" "}
+              1. Around 50% of Hands’ customers write purchase notes to her
+              during online shopping.{" "}
             </h2>
             <h2 className="text-xl mb-4 md:text-2xl">
-              Customers like to share their experiences and motivations on Etsy
-              reviews.
+              2. Customers like to share their experiences and motivations on
+              Etsy reviews.
             </h2>
             <h2 className="text-xl mb-4 md:text-2xl">
-              There is a lack of community on her social medias.
+              3. There is a lack of community on her social medias.
             </h2>
             <h2 className="text-xl mb-4 md:text-2xl">
-              Supporters of women empowerment find representation important.
+              4.Supporters of women empowerment find representation important.
             </h2>
           </div>
           <p className="md:text-lg">

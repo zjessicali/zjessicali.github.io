@@ -29,8 +29,7 @@ function ProjectDetails() {
               Context
             </h1>
             <p className="font-manrope text-sm md:text-base">
-              Eunoia UX Hackathon
-              <br /> 2023
+              Eunoia UX Hackathon 2023
               <br />1 Week
             </p>
           </div>

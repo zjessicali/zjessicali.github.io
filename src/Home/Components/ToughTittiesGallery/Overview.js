@@ -16,10 +16,10 @@ function Overview() {
           hackathon, Emma Hands, the founder, reached out to us personally to
           inquire about our interest in future work with her.
         </p>
-        <img
+        {/* <img
           alt="Tough Titties Gallery Logo"
           src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860764/GalleryLogo_hddxuk.png"
-        ></img>
+        ></img> */}
       </section>
     </div>
   );
