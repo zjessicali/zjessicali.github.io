@@ -1,35 +1,28 @@
 export const DATA = {
   projects: [
-    // {
-    //   imgpath: "/ProjectImages/Soju.png",
-    //   title: "Soju Events",
-    //   tags: "User Research",
-    //   linkpath: "/SojuEvents",
-    // },
-
+    {
+      imgpath: "/ProjectImages/YVR.png",
+      title: "YVR Airport",
+      tags: "Internship, Visual Design",
+      linkpath: "/YVRAirport",
+    },
     {
       imgpath: "/ProjectImages/ToughTittiesGallery/ToughTittiesIcon.png",
       title: "Tough Titties Gallery",
       tags: "Hackathon, UX Design",
       linkpath: "/toughtittiesgallery",
     },
-    // {
-    //   imgpath: "/ProjectImages/water.png",
-    //   title: "The Ways of Water",
-    //   tags: "Art Direction, Interaction Design",
-    //   linkpath: "/waysofwater",
-    // },
     {
-      imgpath: "/ProjectImages/typology.png",
-      title: "Typology",
-      tags: "UI/UX, Interaction Design",
-      linkpath: "/typology",
+      imgpath: "/ProjectImages/ToughTittiesGallery/ToughTittiesIcon.png",
+      title: "Tough Titties Gallery",
+      tags: "Hackathon, UX Design",
+      linkpath: "/toughtittiesgallery",
     },
     {
-      imgpath: "/ProjectImages/YVR.png",
-      title: "YVR Airport",
-      tags: "Internship, Visual Design",
-      linkpath: "/YVRAirport",
+      imgpath: "/ProjectImages/ToughTittiesGallery/ToughTittiesIcon.png",
+      title: "Tough Titties Gallery",
+      tags: "Hackathon, UX Design",
+      linkpath: "/toughtittiesgallery",
     },
   ],
   web: [

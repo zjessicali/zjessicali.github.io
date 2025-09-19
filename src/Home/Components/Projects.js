@@ -4,7 +4,17 @@ import { useState, useEffect } from "react";
 import Links from "./Links.js";
 
 function Projects() {
-  <div className="h-screen bg-pinkie w-full">lol</div>;
+  const projects = DATA.projects;
+  <div className="h-screen bg-pinkie w-full">
+    test
+    {projects.map((item, i) => {
+      return (
+        <Link to={item.linkpath} className="">
+          <h1>hi</h1>
+        </Link>
+      );
+    })}
+  </div>;
 }
 
 export default Projects;
