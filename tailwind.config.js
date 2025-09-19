@@ -5,12 +5,12 @@ export const theme = {
   extend: {
     colors: {
       pinkie: "#F0C9D4",
-      porple: "#2C1733",
-      white: "#EEEBEE",
-      grey: "#7E787E",
+      white: "#FBF6F8",
+      black: "#696969",
     },
     fontFamily: {
       Manrope: ["Manrope", "sans-serif"],
+      DM: ["DM Sans", "sans-serif"],
     },
     screens: {
       lg: "1160px",

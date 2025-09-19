@@ -1,16 +1,20 @@
-import Header from "./Home/Components/Header";
-import GridContent from "./Home/Components/GridContent";
-import Links from "./Home/Components/Links";
-import Content from "./Home/Components/Content";
+import MainSidePanel from "./Home/Components/MainSidePanel";
+import Projects from "./Home/Components/Projects";
 
 function Main() {
   return (
-    <div className="bg-white">
-      <Header></Header>
-      <Content></Content>
+    <div className=" grid grid-cols-3 gap-10 w-screen">
+      <section className="">
+        <MainSidePanel></MainSidePanel>
+      </section>
+      <section className="col-span-2">
+        <Projects></Projects>
+      </section>
+      {/* <Header></Header> */}
+      {/* <Content></Content>
       <div className="md:hidden">
         <Links></Links>
-      </div>
+      </div> */}
     </div>
   );
 }
