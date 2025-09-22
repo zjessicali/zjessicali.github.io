@@ -1,6 +1,6 @@
 function MainSidePanel() {
   return (
-    <div className="relative flex flex-col justify-between w-full px-5 py-5 h-[calc(100vh-60px)]">
+    <div className="relative flex flex-col justify-between w-full px-5 py-5 h-[calc(100vh-60px)] overflow-hidden">
       <p className="font-DM  py-5">
         I’m <span className="italic">Jessica,</span> a UX and visual designer
         creating thoughtful and memorable experiences through intention and

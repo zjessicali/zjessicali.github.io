@@ -7,8 +7,8 @@ const Nav = () => {
         <Link to="/" className="font-DM animate-fadeUp">
           ✧ jessica
         </Link>
-        <div className="animate-fadeUp flex col-span-2 gap-10">
-          <h1 className="font-DM px-4">projects</h1>
+        <div className="animate-fadeUp flex col-span-2 gap-10 pl-4">
+          <h1 className="font-DM ">projects</h1>
           <h1 className="font-DM">sandbox</h1>
           <h1 className="font-DM">about</h1>
         </div>

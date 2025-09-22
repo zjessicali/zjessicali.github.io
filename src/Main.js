@@ -10,11 +10,6 @@ function Main() {
       <section className="col-span-2">
         <Projects></Projects>
       </section>
-      {/* <Header></Header> */}
-      {/* <Content></Content>
-      <div className="md:hidden">
-        <Links></Links>
-      </div> */}
     </div>
   );
 }
