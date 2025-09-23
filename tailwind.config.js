@@ -4,7 +4,7 @@ export const content = ["./src/**/*.{html,js}"];
 export const theme = {
   extend: {
     colors: {
-      pinkie: "#F0C9D4",
+      pinkie: "#FF5CB6",
       white: "#FBF6F8",
       black: "#696969",
     },

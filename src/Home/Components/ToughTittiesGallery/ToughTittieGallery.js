@@ -2,6 +2,7 @@ import SidePanel from "../SidePanel";
 import { DATA } from "../data";
 
 import Overview from "./Overview";
+import Client from "./Client";
 
 function ToughTittiesGallery() {
   var TTG = DATA.projects[2];
@@ -28,6 +29,7 @@ function ToughTittiesGallery() {
       </section>
       <section className="col-span-2 px-5 py-5 h-[calc(100vh-80px)] overflow-y-scroll">
         <Overview></Overview>
+        <Client></Client>
       </section>
     </div>
   );
