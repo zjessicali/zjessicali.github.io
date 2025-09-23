@@ -1,13 +1,17 @@
 function SidePanel({ project, blurb, sections }) {
   return (
     <div className="relative flex flex-col justify-between w-full px-5 py-5 h-[calc(100vh-60px)] overflow-hidden">
-      <h1 className="font-DM py-5">{project}</h1>
-      <p className="font-DM py-2">{blurb}</p>
+      <div>
+        <h1 className="font-DM pb-5 text-">{project}</h1>
+        <p className="font-DM">{blurb}</p>
+      </div>
+
       <nav className="">
         {sections.map((item, i) => {
           return (
             <a href={`#${item}`} className="h-60 font-DM text-sm">
               {item}
+              <br></br>
             </a>
           );
         })}

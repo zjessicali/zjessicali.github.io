@@ -1,25 +1,55 @@
 function Overview() {
   return (
-    <div className="md:grid md:grid-cols-4 md:gap-5  lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
-      <section className="mb-4">
-        <p
-          className="font-Manrope lg:text-lg text-grey 
-        uppercase border border-grey text-center w-2/3 md:w-5/6 rounded-full lg:py-[2px]"
-        >
-          Overview
-        </p>
+    <div className=" w-full mb-12">
+      <div className="w-full h-80 bg-pinkie rounded-lg"></div>
+      <section className="w-full grid mt-6 grid-cols-4 gap-x-10">
+        <div>
+          <h1 className="font-DM uppercase opacity-60 mb-2">Roles</h1>
+          <list className="font-DM">
+            <p>UX Design</p>
+            <p>Prototyping</p>
+            <p>Project Management</p>
+          </list>
+        </div>
+        <div className="">
+          <h1 className="font-DM uppercase opacity-60 mb-2">Timeline</h1>
+          <list className="font-DM ">
+            <p>1 week</p>
+          </list>
+        </div>
+        <div className="">
+          <h1 className="font-DM uppercase opacity-60 mb-2">Tools</h1>
+          <list className="font-DM ">
+            <p>Figma</p>
+            <p>Procreate</p>
+            <p>Zoom</p>
+          </list>
+        </div>
+        <div className=" ">
+          <h1 className="font-DM uppercase opacity-60 mb-2">Team</h1>
+          <list className="font-DM ">
+            <p>Carmen Law</p>
+            <p>Sarah Pang</p>
+            <p>Amiko Tang</p>
+          </list>
+        </div>
       </section>
-      <section className="col-span-2">
-        <p className="font-Manrope mb-5 text-porple md:text-lg">
-          Tough Titties Gallery is a one week project which placed 4th for the
-          Eunoia UX Hackathon in 2023, for Tough Titties Designs. Following the
-          hackathon, Emma Hands, the founder, reached out to us personally to
-          inquire about our interest in future work with her.
-        </p>
-        {/* <img
-          alt="Tough Titties Gallery Logo"
-          src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860764/GalleryLogo_hddxuk.png"
-        ></img> */}
+      <section className="w-full grid grid-cols-2 mt-7 gap-x-10">
+        <div>
+          <h1 className="font-DM uppercase opacity-60 mb-2">Problem</h1>
+          <p className="font-DM">
+            How might we help customers who support women empowerment better
+            connect with the business by building a sense of community in a
+            space that has a desire of belonging and interactions?
+          </p>
+        </div>
+        <div className=" ">
+          <h1 className="font-DM uppercase opacity-60 mb-2">Outcome</h1>
+          <p className="font-DM ">
+            We conducted user research, ideated, and developed a working
+            prototype for user testing within a one week deadline.
+          </p>
+        </div>
       </section>
     </div>
   );

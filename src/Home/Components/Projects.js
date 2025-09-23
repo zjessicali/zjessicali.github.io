@@ -1,7 +1,6 @@
 import { DATA } from "./data.js";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Links from "./Links.js";
 
 function Projects() {
   const projects = DATA.projects;
