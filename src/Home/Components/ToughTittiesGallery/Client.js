@@ -1,12 +1,7 @@
 function Client() {
   return (
     <section className=" w-full mb-12">
-      <h1
-        className="font-DM text-pinkie
-        uppercase mb-6"
-      >
-        Client
-      </h1>
+      <h1 className="font-DM text-pinkie uppercase mb-6">Client</h1>
 
       <div className="grid grid-cols-2 gap-x-10">
         <div className="flex justify-between w-full items-center">
@@ -21,7 +16,7 @@ function Client() {
             className="max-w-[49%] h-full "
           ></img>
         </div>
-        <p className="font-DM">
+        <p className="font-DM text-lg leading-tight">
           Through the Eunoia UX Hackathon in 2023, we met Emma Hands, founder of
           Tough Titties Designs, a brand that creates light-hearted items
           promoting female empowerment and raising awareness for breast cancer.

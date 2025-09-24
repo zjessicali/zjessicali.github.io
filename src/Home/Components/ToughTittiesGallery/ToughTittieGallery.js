@@ -3,6 +3,8 @@ import { DATA } from "../data";
 
 import Overview from "./Overview";
 import Client from "./Client";
+import Problem from "./Problem";
+import Solution from "./Solution";
 
 function ToughTittiesGallery() {
   var TTG = DATA.projects[2];
@@ -30,6 +32,8 @@ function ToughTittiesGallery() {
       <section className="col-span-2 px-5 py-5 h-[calc(100vh-80px)] overflow-y-scroll">
         <Overview></Overview>
         <Client></Client>
+        <Problem></Problem>
+        <Solution></Solution>
       </section>
     </div>
   );
