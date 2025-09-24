@@ -4,16 +4,16 @@ function Client() {
       <h1 className="font-DM text-pinkie uppercase mb-6">Client</h1>
 
       <div className="grid grid-cols-2 gap-x-10">
-        <div className="flex justify-between w-full items-center">
+        <div className="grid grid-cols-2 gap-x-4 items-center">
           <img
             src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860831/client1_rvha3p.jpg"
             alt="Sista Hood stickers"
-            className="max-w-[49%] h-full"
+            className="w-full h-auto"
           ></img>
           <img
             src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860980/client2_xz5ucu.jpg"
             alt="Tough Titties stickers"
-            className="max-w-[49%] h-full "
+            className="w-full h-auto"
           ></img>
         </div>
         <p className="font-DM text-lg leading-tight">
