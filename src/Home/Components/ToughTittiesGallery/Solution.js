@@ -2,13 +2,13 @@ import AutoplayVideo from "../Autoplay";
 
 function Solution() {
   return (
-    <div className="w-full mb-12 font-DM">
+    <div className="w-full mb-16 font-DM">
       <h1 className="font-DM text-pinkie uppercase mb-6">Solution</h1>
-      <section className="mb-6">
+      <section className="mb-12">
         <h1 className="font-DM opacity-60 uppercase mb-4">
           (1) bridging the gap between physical products to digital media.
         </h1>
-        <div className="grid grid-cols-2 gap-x-10 mb-4">
+        <div className="grid grid-cols-2 gap-x-10 mb-8">
           <img
             src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758667019/PostPurchaseMockup_jvpq1g_a3d817.jpg"
             alt="Post purchase cards mockup."
@@ -27,11 +27,11 @@ function Solution() {
           or malicious contents.
         </p>
       </section>
-      <section className="mb-6">
+      <section className="mb-12">
         <h1 className="font-DM opacity-60 uppercase mb-4">
           (2) creating an intimate space of representation
         </h1>
-        <div className="grid grid-cols-2 gap-x-10 mb-4">
+        <div className="grid grid-cols-2 gap-x-10 mb-8">
           <AutoplayVideo
             className="w-full rounded"
             src="https://res.cloudinary.com/de9qkjreb/video/upload/v1758671464/flow_dv9iyf_9472cb.mp4"
@@ -55,11 +55,11 @@ function Solution() {
           randomizing which titties appear on refresh or shuffle.
         </p>
       </section>
-      <section className="mb-6">
+      <section className="mb-12">
         <h1 className="font-DM opacity-60 uppercase mb-4">
           (3) representation through titties and stories
         </h1>
-        <div className="grid grid-cols-2 gap-x-10 mb-4">
+        <div className="grid grid-cols-2 gap-x-10 mb-8">
           <img
             src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758672717/Screenshot_2025-09-23_171122_ljsuxn.png"
             alt="Filter options."
@@ -80,11 +80,11 @@ function Solution() {
           share to those within the community.
         </p>
       </section>
-      <section className="mb-6">
+      <section className="mb-12">
         <h1 className="font-DM opacity-60 uppercase mb-4">
           (4) Connecting supporters of women empowerment
         </h1>
-        <div className="grid grid-cols-2 gap-10 mb-4">
+        <div className="grid grid-cols-2 gap-10 mb-8">
           <img
             src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758677044/Screenshot_2025-09-23_182230_h9yyge.png"
             alt="Hover Mia's titties on home screen."

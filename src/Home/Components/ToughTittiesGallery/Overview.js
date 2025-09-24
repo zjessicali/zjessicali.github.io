@@ -1,7 +1,11 @@
 function Overview() {
   return (
-    <div className=" w-full mb-12">
-      <div className="w-full h-80 bg-pinkie rounded-lg"></div>
+    <div className=" w-full mb-16">
+      <img
+        src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758679656/Icon_olfdvn.png"
+        alt="Tough Titties Gallery"
+        className="w-full   rounded-lg"
+      ></img>
       <section className="w-full grid mt-6 grid-cols-4 gap-x-10">
         <div>
           <h1 className="font-DM uppercase opacity-60 mb-2">Roles</h1>

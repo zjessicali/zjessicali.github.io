@@ -1,8 +1,8 @@
 function Problem() {
   return (
-    <div className=" w-full mb-12">
+    <div className=" w-full mb-16">
       <h1 className="font-DM text-pinkie uppercase mb-6">Problem</h1>
-      <div className="mb-7">
+      <div className="mb-8">
         <h1 className="font-DM uppercase opacity-60 mb-2">Business Needs</h1>
         <p className="font-DM">
           Through our talk with Hands, we pinpointed that Tough Titties Designs
@@ -28,7 +28,7 @@ function Problem() {
               Customers often to share their experiences and motivations on Etsy
               reviews.
             </h2>
-            <h2 className="mb-7">
+            <h2 className="">
               Supporters of women empowerment find representation important for
               them;{" "}
               <span className="text-base">
