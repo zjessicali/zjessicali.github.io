@@ -4,7 +4,7 @@ function Solution() {
   return (
     <div className="w-full mb-16 font-DM">
       <h1 className="font-DM text-pinkie uppercase mb-6">Solution</h1>
-      <section className="mb-12">
+      <section className="mb-16">
         <h1 className="font-DM opacity-60 uppercase mb-4">
           (1) bridging the gap between physical products to digital media.
         </h1>
@@ -27,7 +27,7 @@ function Solution() {
           or malicious contents.
         </p>
       </section>
-      <section className="mb-12">
+      <section className="mb-16">
         <h1 className="font-DM opacity-60 uppercase mb-4">
           (2) creating an intimate space of representation
         </h1>
@@ -55,7 +55,7 @@ function Solution() {
           randomizing which titties appear on refresh or shuffle.
         </p>
       </section>
-      <section className="mb-12">
+      <section className="mb-16">
         <h1 className="font-DM opacity-60 uppercase mb-4">
           (3) representation through titties and stories
         </h1>
@@ -80,7 +80,7 @@ function Solution() {
           share to those within the community.
         </p>
       </section>
-      <section className="mb-12">
+      <section className="mb-16">
         <h1 className="font-DM opacity-60 uppercase mb-4">
           (4) Connecting supporters of women empowerment
         </h1>

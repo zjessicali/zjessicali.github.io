@@ -2,7 +2,7 @@ function Problem() {
   return (
     <div className=" w-full mb-16">
       <h1 className="font-DM text-pinkie uppercase mb-6">Problem</h1>
-      <div className="mb-8">
+      <div className="mb-10">
         <h1 className="font-DM uppercase opacity-60 mb-2">Business Needs</h1>
         <p className="font-DM">
           Through our talk with Hands, we pinpointed that Tough Titties Designs
@@ -10,21 +10,21 @@ function Problem() {
           touchpoints while supporting meaningful community connections.
         </p>
       </div>
-      <div className="mb-7">
+      <div className="mb-10">
         <h1 className="font-DM uppercase opacity-60 mb-2">User Needs</h1>
         <div className="grid grid-cols-2 gap-x-10">
           <p className="font-DM">
-            Through our talk with Hands, we pinpointed that Tough Titties
-            Designs needed a seamless user experience that unifies physical and
-            digital touchpoints while supporting meaningful community
-            connections.
+            Through conversations with both previous and potential customers of
+            Tough Titties Designs, along with analyzing their digital presence
+            across platforms such as Etsy, Instagram, and Reddit, we identified
+            key needs and pain points.
           </p>
           <div className="font-DM text-lg leading-tight">
-            <h2 className="mb-7">
+            <h2 className="mb-8">
               Around 50% of Hands’ customers write private purchase notes to her
               during online shopping.
             </h2>
-            <h2 className="mb-7">
+            <h2 className="mb-8">
               Customers often to share their experiences and motivations on Etsy
               reviews.
             </h2>
