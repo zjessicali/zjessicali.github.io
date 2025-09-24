@@ -1,29 +1,29 @@
-import ProjectHeaders from "./ProjectHeaders";
-import Overview from "./Overview";
-import Swift from "./Swift";
-import Giving from "./Giving";
-import Socks from "./Socks";
-import Fair from "./Fair";
-import Twin from "./Twin";
-import BackToTopButton from "../Top";
+import SidePanel from "../SidePanel";
+import { DATA } from "../data";
 
-import { useEffect } from "react";
+import Overview from "./Overview";
+import Projects from "./Projects";
 
 function YVR() {
-  useEffect(() => {
-    // Scroll to the top of the page when the component mounts
-    window.scrollTo(0, 0);
-  }, []);
+  var YVR = DATA.projects[0];
+  var sections = ["Overview", "Projects"];
+  // useEffect(() => {
+  //   // Scroll to the top of the page when the component mounts
+  //   window.scrollTo(0, 0);
+  // }, []);
   return (
-    <div className="bg-white">
-      <ProjectHeaders></ProjectHeaders>
-      <Overview></Overview>
-      <Swift></Swift>
-      <Giving></Giving>
-      <Socks></Socks>
-      <Fair></Fair>
-      {/* <Twin></Twin> */}
-      <BackToTopButton></BackToTopButton>
+    <div className=" grid grid-cols-3 gap-10 w-screen">
+      <section className="">
+        <SidePanel
+          project={YVR.title}
+          blurb={YVR.blurb}
+          sections={sections}
+        ></SidePanel>
+      </section>
+      <section className="col-span-2 px-5 py-5 h-[calc(100vh-80px)] overflow-y-scroll">
+        <Overview></Overview>
+        <Projects></Projects>
+      </section>
     </div>
   );
 }
