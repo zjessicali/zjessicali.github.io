@@ -5,6 +5,8 @@ import Overview from "./Overview";
 import Client from "./Client";
 import Problem from "./Problem";
 import Solution from "./Solution";
+import Reflection from "./Reflection";
+import Impact from "./Impact";
 
 function ToughTittiesGallery() {
   var TTG = DATA.projects[2];
@@ -34,6 +36,8 @@ function ToughTittiesGallery() {
         <Client></Client>
         <Problem></Problem>
         <Solution></Solution>
+        <Reflection></Reflection>
+        <Impact></Impact>
       </section>
     </div>
   );
