@@ -1,7 +1,7 @@
 import MainSidePanel from "./Home/Components/MainSidePanel";
 import Projects from "./Home/Components/Projects";
-
 function Main() {
+  
   return (
     <div className=" grid grid-cols-3 gap-10 w-screen">
       <section className="">

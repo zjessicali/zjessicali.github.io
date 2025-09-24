@@ -5,7 +5,7 @@ export const DATA = {
       title: "YVR Airport",
       tags: "Visual Design",
       context: "Internship, 2024",
-      linkpath: "/",
+      linkpath: "/YVRAirport",
       blurb:
         "8 month internship as a Content & Design Co-op with the Vancouver Airport Authority with the design team.",
     },
