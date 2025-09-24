@@ -1,42 +1,34 @@
-function Swift() {
-  return (
-    <div className="md:grid md:grid-cols-4 md:gap-5  lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
-      <section className="mb-4">
-        <p
-          className="font-Manrope lg:text-lg text-grey 
-          uppercase border border-grey text-center w-2/3 md:w-5/6 rounded-full lg:py-[2px]"
-        >
-          Taylor Swift
-        </p>
-      </section>
+import Carousel from "../Carousel";
 
-      <section className="col-span-2">
-        <section className="grid grid-cols-2 gap-2 ">
-          <img
-            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863326/Swift1_ebgnka.jpg"
-            alt="Taylor Swift Activation"
-          ></img>
-          <img
-            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863328/Swift2_vwi0rv.jpg"
-            alt="Taylor Swift Activation"
-          ></img>
-          <img
-            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863322/Swift3_w59oqi.jpg"
-            alt="Taylor Swift Activation"
-          ></img>
-          <img
-            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749863323/Swift4_ykpsbt.jpg"
-            alt="Taylor Swift Activation"
-          ></img>
-        </section>
-        <p className="font-Manrope text-porple md:text-lg py-3">
-          This project involved creating graphical assets for a campaign
-          welcoming Taylor Swift fans to Vancouver for the T Swift concert. I
-          created the Taylor Swift cut out, the lollipop stand signage, and the
-          piano vinyl wrap.
-        </p>
-      </section>
-    </div>
+function Swift() {
+  const images = [
+    "https://res.cloudinary.com/de9qkjreb/image/upload/v1758753678/Swift1_afrqfw.png",
+    "https://res.cloudinary.com/de9qkjreb/image/upload/v1758753673/Swift2_bw52su.png",
+    "https://res.cloudinary.com/de9qkjreb/image/upload/v1758753676/Swift3_iacpxh.png",
+    "https://res.cloudinary.com/de9qkjreb/image/upload/v1758753674/Swift4_sqb4sh.png",
+    "https://res.cloudinary.com/de9qkjreb/image/upload/v1758753678/Swift5_ecf5t4.png",
+ 
+  ];
+  return (
+    <>
+    
+    <section className="mb-16">
+      <h1 className="font-DM opacity-60 uppercase mb-4">Taylor Swift Activation</h1>
+      <div className="mb-8">
+        {/* CAROUSELLLL */}
+              <Carousel images={images}></Carousel>
+      </div>
+
+      <div className="grid grid-cols-2 gap-x-10">
+      <p>
+        With a fast turnaround, I created assets for YVR’s activation welcoming Taylor Swift fans to Vancouver, supporting both the in-terminal experience and the accompanying social media campaign. For this activation, I created signages, a cut out in the likeness of Swift, and a piano vinyl wrap. 
+      </p>
+      <p>
+        The activation boosted YVR’s social media engagement, as fans shared photos and interacted with the installations, creating a memorable and shareable welcome
+      </p>
+      </div>
+    </section>
+    </>
   );
 }
 

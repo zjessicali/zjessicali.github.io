@@ -16,9 +16,17 @@ body {
   background: #fbf6f8;
   letter-spacing: -1%;
   line-height: normal;
+
+  font-size: 0.875rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media (min-width: 1920px) {
+  body {
+    font-size: 1rem; /* text-base for large screens */
+  }
 }

@@ -13,7 +13,7 @@ function Giving() {
   ];
   return (
     <>
-    <h1 className="font-DM text-pinkie uppercase mb-6">Projects</h1>
+    
     <section className="mb-16">
       <h1 className="font-DM opacity-60 uppercase mb-4">Giving Thanks</h1>
       <div className="mb-8">

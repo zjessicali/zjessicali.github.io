@@ -4,6 +4,7 @@ import { DATA } from "../data";
 import Overview from "./Overview";
 import Projects from "./Projects";
 
+
 function YVR() {
   var YVR = DATA.projects[0];
   var sections = ["Overview", "Projects"];
@@ -12,7 +13,7 @@ function YVR() {
   //   window.scrollTo(0, 0);
   // }, []);
   return (
-    <div className=" grid grid-cols-3 gap-10 w-screen">
+    <div className=" grid grid-cols-4 gap-10 w-screen">
       <section className="">
         <SidePanel
           project={YVR.title}
@@ -20,7 +21,7 @@ function YVR() {
           sections={sections}
         ></SidePanel>
       </section>
-      <section className="col-span-2 px-5 py-5 h-[calc(100vh-80px)] overflow-y-scroll">
+      <section className="col-span-3 px-5 py-5 h-[calc(100vh-80px)] overflow-y-scroll">
         <Overview></Overview>
         <Projects></Projects>
       </section>
