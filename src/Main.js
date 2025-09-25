@@ -5,8 +5,8 @@ function Main() {
   console.log(window.innerHeight)
 console.log(height);
   return (
-    <div className={`p-5 grid grid-cols-4 gap-x-10 w-full h-[100vh-60px] h-${height}`}>
-      <section className="h-full">
+    <div className={`p-5 grid grid-cols-4 gap-x-10 w-full `} style={{ height: `${height}px` }}>
+      <section className="">
         <MainSidePanel></MainSidePanel>
       </section>
       <section className="col-span-3 overflow-y-scroll">
