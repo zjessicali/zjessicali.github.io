@@ -8,10 +8,7 @@ import Projects from "./Projects";
 function YVR() {
   var YVR = DATA.projects[0];
   var sections = ["Overview", "Projects"];
-  // useEffect(() => {
-  //   // Scroll to the top of the page when the component mounts
-  //   window.scrollTo(0, 0);
-  // }, []);
+
   return (
     <div className=" grid grid-cols-4 gap-10 w-screen">
       <section className="">
@@ -21,7 +18,7 @@ function YVR() {
           sections={sections}
         ></SidePanel>
       </section>
-      <section className="col-span-3 px-5 py-5 h-[calc(100vh-80px)] overflow-y-scroll">
+      <section className="col-span-3 h-[calc(100vh-80px)] overflow-y-scroll">
         <Overview></Overview>
         <Projects></Projects>
       </section>

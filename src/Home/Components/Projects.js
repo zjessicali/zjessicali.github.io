@@ -5,11 +5,11 @@ import { useState, useEffect } from "react";
 function Projects() {
   const projects = DATA.projects;
   return (
-    <div className="h-[calc(100vh-60px)] w-full px-5 py-5">
-      <div className="w-full grid grid-cols-2 gap-10 py-5">
+    <div className="w-full ">
+      <div className="w-full grid grid-cols-2 gap-10 pb-5">
         {projects.map((item, i) => {
           return (
-            <Link to={item.linkpath} className="h-60">
+            <Link to={item.linkpath} className="h-40">
               <h1 className="font-DM">
                 {item.title}&nbsp;
                 <span className="opacity-60">—&nbsp;{item.tags}</span>

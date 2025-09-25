@@ -13,6 +13,7 @@ export const theme = {
       DM: ["DM Sans", "sans-serif"],
     },
     screens: {
+      md:"1201px",
       lg: "1921px",
     },
     animation: {

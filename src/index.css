@@ -17,12 +17,18 @@ body {
   letter-spacing: -1%;
   line-height: normal;
 
-  font-size: 0.875rem;
+  font-size: 0.7rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 0.875rem; /* text-base for large screens */
+  }
 }
 
 @media (min-width: 1920px) {
