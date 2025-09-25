@@ -13,8 +13,8 @@ export const theme = {
       DM: ["DM Sans", "sans-serif"],
     },
     screens: {
-      md:"1201px",
-      lg: "1921px",
+      md: "1201px",
+      lg: "1421px",
     },
     animation: {
       fadeUp: "fadeUp 0.5s ease-out",

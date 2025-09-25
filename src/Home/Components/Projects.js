@@ -9,7 +9,7 @@ function Projects() {
       <div className="w-full grid grid-cols-2 gap-10 pb-5">
         {projects.map((item, i) => {
           return (
-            <Link to={item.linkpath} className="h-40">
+            <Link to={item.linkpath} className="h-40 md:h-60 lg:h-80">
               <h1 className="font-DM">
                 {item.title}&nbsp;
                 <span className="opacity-60">—&nbsp;{item.tags}</span>

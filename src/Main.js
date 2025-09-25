@@ -1,15 +1,30 @@
 import MainSidePanel from "./Home/Components/MainSidePanel";
 import Projects from "./Home/Components/Projects";
+import { useState, useEffect } from "react";
+
 function Main() {
-  const height = window.innerHeight - 60;
-  console.log(window.innerHeight)
-console.log(height);
+  const [height, setHeight] = useState(window.innerHeight - 60);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setHeight(window.innerHeight - 60);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup when component unmounts
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
-    <div className={`p-5 grid grid-cols-4 gap-x-10 w-full `} style={{ height: `${height}px` }}>
+    <div
+      className={`p-5 grid grid-cols-4 gap-x-10 w-full `}
+      style={{ height: `${height}px` }}
+    >
       <section className="">
         <MainSidePanel></MainSidePanel>
       </section>
-      <section className="col-span-3 h-auto overflow-y-scroll">
+      <section className="col-span-3 h-auto overflow-y-auto">
         <Projects></Projects>
       </section>
     </div>

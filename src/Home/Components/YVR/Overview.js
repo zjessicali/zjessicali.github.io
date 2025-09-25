@@ -15,7 +15,12 @@ function Overview() {
       </div>
       <section className="w-full grid mt-6 grid-cols-4 gap-x-10">
         <div className="col-span-2">
-          During my internship at YVR, I worked on a small design team of three, where I was assigned projects and tasks by the team lead. My process typically involved meeting with requesting teams to understand their goals, developing initial drafts for review and feedback, and then producing final deliverables tailored to the print shop’s requirements. Below, I showcase several projects I took ownership of.
+          During my internship at YVR, I worked on a small design team of three,
+          where I was assigned projects and tasks by the team lead. My process
+          typically involved meeting with requesting teams to understand their
+          goals, developing initial drafts for review and feedback, and then
+          producing final deliverables tailored to the print shop’s
+          requirements.
         </div>
         <div className="">
           <h1 className="font-DM uppercase opacity-60 mb-2">Timeline</h1>
@@ -32,9 +37,7 @@ function Overview() {
             <p>Monday</p>
           </list>
         </div>
-        
       </section>
-      
     </div>
   );
 }

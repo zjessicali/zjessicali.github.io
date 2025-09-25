@@ -12,12 +12,10 @@ function MainSidePanel() {
           <a href="mailto:z.jessicali2001@gmail.com">resume</a>
         </p>
         <p>
-          <a href="mailto:z.jessicali2001@gmail.com">
-            email me :3
-          </a>
+          <a href="mailto:z.jessicali2001@gmail.com">email me :3</a>
         </p>
       </div>
-      <p className="absolute bottom-5 right-[-16px] leading-tight text-[6px] md:text-[8px] lg:text-sm text-grey opacity-30">
+      <p className="absolute bottom-0 right-[-16px] leading-tight text-[7px] md:text-[9px] lg:text-xs text-grey opacity-30">
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br></br>
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⢀⣠⠤⣶⣶⣤⣀⡀⠀⠀<br></br>
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⠟⢦⣤⡄⠒⠋⠁⠀⠀⢻⡝⢧⠀<br></br>
