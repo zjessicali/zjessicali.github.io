@@ -14,7 +14,7 @@ export const DATA = {
       title: "Tinder Date Requests",
       tags: "UX/UI Design",
       context: "Academic, 2023",
-      linkpath: "/",
+      linkpath: "/Tinder",
       blurb:
         "Creating more comfortable offline interactions by giving users control over when to receive date requests and an easy way to say no.",
     },

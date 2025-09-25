@@ -3,6 +3,7 @@ import Main from "./Main";
 import Nav from "./Home/Components/Nav";
 import About from "./Home/Components/About/About";
 import YVR from "./Home/Components/YVR/YVR";
+import Tinder from "./Home/Components/Tinder/Tinder";
 
 import {
   Outlet,
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="toughtittiesgallery" element={<ToughTittiesGallery />} />
           <Route path="YVRAirport" element={<YVR />} />
+          <Route path="Tinder" element={<Tinder />}></Route>
         </Route>
       </Routes>
     </HashRouter>
