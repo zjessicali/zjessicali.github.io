@@ -1,6 +1,6 @@
 function SidePanel({ project, blurb, sections }) {
   return (
-    <div className="relative flex flex-col justify-between w-full px-5 py-5 h-[calc(100vh-60px)] overflow-hidden">
+    <div className="relative flex flex-col justify-between w-full h-full overflow-hidden">
       <div>
         <h1 className="font-DM pb-5 text-">{project}</h1>
         <p className="font-DM">{blurb}</p>
@@ -16,7 +16,7 @@ function SidePanel({ project, blurb, sections }) {
           );
         })}
       </nav>
-      <p className="absolute bottom-5 right-[-16px] leading-tight text-[6px] md:text-[8px] lg:text-xs text-grey opacity-30">
+      <p className="absolute bottom-0 right-[-16px] leading-tight text-[7px] md:text-[9px] lg:text-xs text-grey opacity-30">
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br></br>
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⢀⣠⠤⣶⣶⣤⣀⡀⠀⠀<br></br>
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⠟⢦⣤⡄⠒⠋⠁⠀⠀⢻⡝⢧⠀<br></br>
