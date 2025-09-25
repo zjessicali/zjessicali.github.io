@@ -9,7 +9,7 @@ console.log(height);
       <section className="">
         <MainSidePanel></MainSidePanel>
       </section>
-      <section className="col-span-3 overflow-y-scroll">
+      <section className="col-span-3 h-auto overflow-y-scroll">
         <Projects></Projects>
       </section>
     </div>

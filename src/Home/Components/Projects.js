@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 function Projects() {
   const projects = DATA.projects;
   return (
-    <div className="w-full ">
+    <div className="w-full">
       <div className="w-full grid grid-cols-2 gap-10 pb-5">
         {projects.map((item, i) => {
           return (
