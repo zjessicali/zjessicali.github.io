@@ -8,6 +8,8 @@ import Solution from "./Solution";
 import Reflection from "./Reflection";
 import Impact from "./Impact";
 
+import { useState, useEffect } from "react";
+
 function ToughTittiesGallery() {
   var TTG = DATA.projects[2];
   var sections = [
@@ -18,12 +20,25 @@ function ToughTittiesGallery() {
     "Reflection",
     "Impact",
   ];
-  // useEffect(() => {
-  //   // Scroll to the top of the page when the component mounts
-  //   window.scrollTo(0, 0);
-  // }, []);
+
+  const [height, setHeight] = useState(window.innerHeight - 60);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setHeight(window.innerHeight - 60);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup when component unmounts
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
-    <div className=" grid grid-cols-3 gap-10 w-screen">
+    <div
+      className={`p-5 grid grid-cols-4 gap-x-10 w-full `}
+      style={{ height: `${height}px` }}
+    >
       <section className="">
         <SidePanel
           project={TTG.title}
@@ -31,7 +46,7 @@ function ToughTittiesGallery() {
           sections={sections}
         ></SidePanel>
       </section>
-      <section className="col-span-2 px-5 py-5 h-[calc(100vh-80px)] overflow-y-scroll">
+      <section className="col-span-3 h-full overflow-y-scroll">
         <Overview></Overview>
         <Client></Client>
         <Problem></Problem>
