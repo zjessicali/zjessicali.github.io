@@ -12,29 +12,25 @@ function Overview() {
           <list className="font-DM">
             <p>UX Design</p>
             <p>Prototyping</p>
-            <p>Project Management</p>
           </list>
         </div>
         <div className="">
           <h1 className="font-DM uppercase opacity-60 mb-2">Timeline</h1>
           <list className="font-DM ">
-            <p>1 week</p>
+            <p>3 weeks</p>
           </list>
         </div>
         <div className="">
           <h1 className="font-DM uppercase opacity-60 mb-2">Tools</h1>
           <list className="font-DM ">
             <p>Figma</p>
-            <p>Procreate</p>
-            <p>Zoom</p>
           </list>
         </div>
         <div className=" ">
           <h1 className="font-DM uppercase opacity-60 mb-2">Team</h1>
           <list className="font-DM ">
-            <p>Carmen Law</p>
-            <p>Sarah Pang</p>
-            <p>Amiko Tang</p>
+            <p>Ana Lizarraga</p>
+            <p>Rabab Attarazi</p>
           </list>
         </div>
       </section>
@@ -42,16 +38,16 @@ function Overview() {
         <div>
           <h1 className="font-DM uppercase opacity-60 mb-2">Problem</h1>
           <p className="font-DM">
-            How might we help customers who support women empowerment better
-            connect with the business by building a sense of community in a
-            space that has a desire of belonging and interactions?
+            How might we make the process of asking for a date more seamless
+            while ensuring the comfort of all users?
           </p>
         </div>
         <div className=" ">
           <h1 className="font-DM uppercase opacity-60 mb-2">Outcome</h1>
           <p className="font-DM ">
-            We conducted user research, ideated, and developed a working
-            prototype for user testing within a one week deadline.
+            We created a feature where users can choose to send or receive date
+            requests, or even choose not to receive date requests at all from
+            certain people.
           </p>
         </div>
       </section>

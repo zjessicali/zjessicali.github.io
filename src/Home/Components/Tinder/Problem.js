@@ -2,48 +2,56 @@ function Problem() {
   return (
     <div className=" w-full mb-16">
       <h1 className="font-DM text-pinkie uppercase mb-6">Problem</h1>
+
       <div className="mb-10">
-        <h1 className="font-DM uppercase opacity-60 mb-2">Business Needs</h1>
-        <p className="font-DM">
-          Through our talk with Hands, we pinpointed that Tough Titties Designs
-          needed a seamless user experience that unifies physical and digital
-          touchpoints while supporting meaningful community connections.
-        </p>
-      </div>
-      <div className="mb-10">
-        <h1 className="font-DM uppercase opacity-60 mb-2">User Needs</h1>
         <div className="grid grid-cols-2 gap-x-10">
           <p className="font-DM">
-            Through conversations with both previous and potential customers of
-            Tough Titties Designs, along with analyzing their digital presence
-            across platforms such as Etsy, Instagram, and Reddit, we identified
-            key needs and pain points.
+            To understand current experiences in the dating space, we conducted
+            in-depth interviews with five people aged 20–23, three of whom used
+            Tinder. All participants identified as heterosexual.
           </p>
-          <div className="font-DM text-lg leading-tight">
-            <h2 className="mb-8">
-              Around 50% of Hands’ customers write private purchase notes to her
-              during online shopping.
-            </h2>
-            <h2 className="mb-8">
-              Customers often to share their experiences and motivations on Etsy
-              reviews.
-            </h2>
-            <h2 className="">
-              Supporters of women empowerment find representation important for
-              them;{" "}
-              <span className="text-base">
-                3 out of 7 interviewees expressed that they felt relieved to
-                know that different boob shapes are common when they saw Hands’
-                products.
-              </span>
-            </h2>
+          <p className="font-DM">
+            *Our research sample consisted of heterosexual men and women, which
+            allowed us to compare gendered experiences; however, the solution is
+            designed to be inclusive of all sexualities and gender identities.
+          </p>
+        </div>
+      </div>
+      <div className="mb-10">
+        <div className="grid grid-cols-2 gap-x-10">
+          <div className="flex w-full ">
+            <div className="w-12 pr-4 md:w-16 flex-shrink-0">
+              <img
+                src="https://em-content.zobj.net/source/apple/419/relieved-face_1f60c.png"
+                alt="Relieved emote"
+                className="w-full object-cover"
+              ></img>
+            </div>
+            <p className="font-DM text-lg leading-tight">
+              Men valued meeting dates in person and rarely described having
+              negative experiences.
+            </p>
+          </div>
+          <div className="flex w-full">
+            <div className="w-12 pr-4 md:w-16 flex-shrink-0">
+              <img
+                src="https://em-content.zobj.net/source/apple/419/anxious-face-with-sweat_1f630.png"
+                alt="Anxious emote"
+                className="w-full object-cover"
+              ></img>
+            </div>
+            <p className="font-DM text-lg leading-tight">
+              Women often felt pressured by early date requests, found it hard
+              to say no, resulting negative first-date experiences.
+            </p>
           </div>
         </div>
       </div>
-      <p className="font-DM mb-12">
-        This revealed a desire for storytelling and sharing experiences within
-        Tough Titties Designs, highlighting a current disconnect in the current
-        space.
+      <p className="font-DM">
+        These contrasting revealed a misalignment in expectations between user,
+        creating friction in the dating experience. We found the opportunity in
+        creating a seamless process of asking for a date, ensuring comfort for
+        all users.
       </p>
     </div>
   );
