@@ -36,3 +36,7 @@ code {
     font-size: 1rem; /* text-base for large screens */
   }
 }
+
+.hover-link {
+  @apply transition-colors duration-300 hover:text-pinkie;
+}
