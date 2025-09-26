@@ -2,7 +2,7 @@ function Overview() {
   return (
     <div className=" w-full mb-16">
       <img
-        src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758679656/Icon_olfdvn.png"
+        src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758847082/Cover_jb3ikv.png"
         alt="Tough Titties Gallery"
         className="w-full   rounded-lg"
       ></img>
