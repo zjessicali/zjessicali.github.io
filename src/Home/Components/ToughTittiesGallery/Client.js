@@ -1,6 +1,6 @@
 function Client() {
   return (
-    <section className=" w-full mb-16">
+    <section className=" w-full mb-16" id="Client">
       <h1 className="font-DM text-pinkie uppercase mb-6">Client</h1>
 
       <div className="grid grid-cols-2 gap-x-10">

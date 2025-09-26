@@ -1,6 +1,6 @@
 function Reflection() {
   return (
-    <section className="w-full mb-16 font-DM">
+    <section className="w-full mb-16 font-DM" id="Reflection">
       <h1 className="font-DM text-pinkie uppercase mb-6">Reflection</h1>
       <div className="grid grid-cols-2 gap-x-10">
         <p className="font-DM">

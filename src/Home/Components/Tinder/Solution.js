@@ -2,7 +2,7 @@ import AutoplayVideo from "../Autoplay";
 
 function Solution() {
   return (
-    <div className="w-full mb-16 font-DM">
+    <div className="w-full mb-16 font-DM" id="Solution">
       <h1 className="font-DM text-pinkie uppercase mb-6">Solution</h1>
       <p className="font-DM mb-6">
         Date Requests: By systemizing the process, people who have a harder tie

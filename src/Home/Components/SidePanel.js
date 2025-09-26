@@ -9,10 +9,17 @@ function SidePanel({ project, blurb, sections }) {
       <nav className="">
         {sections.map((item, i) => {
           return (
-            <a href={`#${item}`} className="h-60 font-DM text-sm hover-link">
+            <h2
+              onClick={() =>
+                document
+                  .getElementById(item)
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
+              className=" font-DM text-sm hover-link"
+            >
               {item}
               <br></br>
-            </a>
+            </h2>
           );
         })}
       </nav>

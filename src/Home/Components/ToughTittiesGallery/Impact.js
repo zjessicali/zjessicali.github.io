@@ -1,6 +1,6 @@
 function Impact() {
   return (
-    <div className="w-full mb-16 font-DM">
+    <div className="w-full mb-16 font-DM" id="Impact">
       <h1 className="font-DM text-pinkie uppercase mb-6">Impact</h1>
       <div className="">
         <p className="font-DM">

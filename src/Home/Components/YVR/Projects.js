@@ -5,7 +5,7 @@ import Fair from "./Fair";
 
 function Projects() {
   return (
-    <div className="w-full mb-16 font-DM">
+    <div className="w-full mb-16 font-DM" id="Projects">
       <h1 className="font-DM text-pinkie uppercase mb-6">Projects</h1>
       <Giving></Giving>
       <Swift></Swift>

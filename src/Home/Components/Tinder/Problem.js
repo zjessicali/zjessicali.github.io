@@ -1,6 +1,6 @@
 function Problem() {
   return (
-    <div className=" w-full mb-16">
+    <div className=" w-full mb-16" id="Problem">
       <h1 className="font-DM text-pinkie uppercase mb-6">Problem</h1>
 
       <div className="mb-10">

@@ -1,6 +1,6 @@
 function Overview() {
   return (
-    <div className=" w-full mb-16">
+    <div className=" w-full mb-16" id="Overview">
       <img
         src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758679656/Icon_olfdvn.png"
         alt="Tough Titties Gallery"
