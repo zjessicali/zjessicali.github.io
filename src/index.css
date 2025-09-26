@@ -38,5 +38,5 @@ code {
 }
 
 .hover-link {
-  @apply transition-colors duration-300 hover:text-pinkie;
+  @apply transition-colors duration-300 hover:text-pinkie hover:cursor-pointer;
 }
