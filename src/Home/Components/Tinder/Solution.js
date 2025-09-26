@@ -15,9 +15,9 @@ function Solution() {
         </h1>
         <div className="grid grid-cols-2 gap-x-10 mb-8">
           <img
-            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758667019/PostPurchaseMockup_jvpq1g_a3d817.jpg"
+            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758864193/1Setting_k6g5fk.png"
             alt="Post purchase cards mockup."
-            className="w-full rounded"
+            className="w-2/3 rounded"
           ></img>
         </div>
       </section>
@@ -27,14 +27,15 @@ function Solution() {
         </h1>
         <div className="grid grid-cols-2 gap-x-10 mb-8">
           <AutoplayVideo
-            className="w-full rounded"
-            src="https://res.cloudinary.com/de9qkjreb/video/upload/v1758671464/flow_dv9iyf_9472cb.mp4"
+            className="w-2/3 rounded"
+            controls={false}
+            src="https://res.cloudinary.com/de9qkjreb/video/upload/v1758920803/2_prkit8.mov"
           ></AutoplayVideo>
-          <img
-            src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758671600/Screenshot_2025-09-23_165144_bn3w3h.png"
-            alt="Filter options."
-            className="w-full rounded"
-          ></img>
+          <AutoplayVideo
+            className="w-2/3 rounded"
+            controls={false}
+            src="https://res.cloudinary.com/de9qkjreb/video/upload/v1758920809/2_2_sycw6h.mov"
+          ></AutoplayVideo>
         </div>
       </section>
       <section className="mb-16">
@@ -43,8 +44,9 @@ function Solution() {
         </h1>
         <div className="grid grid-cols-2 gap-x-10 mb-8">
           <AutoplayVideo
-            className="w-full rounded"
-            src="https://res.cloudinary.com/de9qkjreb/video/upload/v1758673558/flow_dv9iyf_60b11b.mp4"
+            className="w-2/3 rounded"
+            controls={false}
+            src="https://res.cloudinary.com/de9qkjreb/video/upload/v1758920811/3_dio10c.mov"
           ></AutoplayVideo>
         </div>
       </section>
@@ -54,8 +56,9 @@ function Solution() {
         </h1>
         <div className="grid grid-cols-2 gap-10 mb-8">
           <AutoplayVideo
-            className="w-full rounded"
-            src="https://res.cloudinary.com/de9qkjreb/video/upload/v1749402283/4_sticker_m204nc.mp4"
+            className="w-2/3 rounded"
+            controls={false}
+            src="https://res.cloudinary.com/de9qkjreb/video/upload/v1758920819/4_ucan0v.mov"
           ></AutoplayVideo>
         </div>
       </section>
