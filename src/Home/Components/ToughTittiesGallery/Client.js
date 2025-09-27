@@ -1,32 +1,28 @@
 function Client() {
   return (
-    <section className="md:grid md:grid-cols-4 md:gap-5  lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
-      <section className="mb-4">
-        <p
-          className="font-Manrope lg:text-lg text-grey 
-        uppercase border border-grey text-center w-2/3 md:w-5/6 rounded-full lg:py-[2px]"
-        >
-          Client
-        </p>
-      </section>
-      <div className="md:col-span-2">
-        <p className="mb-5 md:text-lg">
-          Tough Titties Designs was created and founded by Emma Hands as a brand
-          specializing in creating light-hearted designed items that promote
-          female empowerment and raise awareness for breast cancer.
-        </p>
-        <div className="flex justify-between w-full items-center">
+    <section className=" w-full mb-16" id="Client">
+      <h1 className="font-DM text-pinkie uppercase mb-6">Client</h1>
+
+      <div className="grid grid-cols-2 gap-x-10">
+        <div className="grid grid-cols-2 gap-x-4 items-center">
           <img
             src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860831/client1_rvha3p.jpg"
             alt="Sista Hood stickers"
-            className="max-w-[49%] h-full"
+            className="w-full h-auto"
           ></img>
           <img
             src="https://res.cloudinary.com/de9qkjreb/image/upload/v1749860980/client2_xz5ucu.jpg"
             alt="Tough Titties stickers"
-            className="max-w-[49%] h-full "
+            className="w-full h-auto"
           ></img>
         </div>
+        <p className="font-DM text-lg leading-tight">
+          Through the Eunoia UX Hackathon in 2023, we met Emma Hands, founder of
+          Tough Titties Designs, a brand that creates light-hearted items
+          promoting female empowerment and raising awareness for breast cancer.
+          After the hackathon, she personally reached out to us to explore
+          potential future collaborations.
+        </p>
       </div>
     </section>
   );

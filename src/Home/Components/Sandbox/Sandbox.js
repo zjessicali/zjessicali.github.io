@@ -1,14 +1,9 @@
-import SidePanel from "../SidePanel";
-import { DATA } from "../data";
-import { useState, useEffect } from "react";
-
-import Overview from "./Overview";
+import MainSidePanel from "../MainSidePanel";
 import Projects from "./Projects";
 
-function YVR() {
-  var YVR = DATA.projects[0];
-  var sections = ["Overview", "Projects"];
+import { useState, useEffect } from "react";
 
+function Sandbox() {
   const [height, setHeight] = useState(window.innerHeight - 60);
 
   useEffect(() => {
@@ -28,18 +23,13 @@ function YVR() {
       style={{ height: `${height}px` }}
     >
       <section className="">
-        <SidePanel
-          project={YVR.title}
-          blurb={YVR.blurb}
-          sections={sections}
-        ></SidePanel>
+        <MainSidePanel></MainSidePanel>
       </section>
-      <section className="col-span-3 overflow-y-scroll">
-        <Overview></Overview>
+      <section className="col-span-3 h-auto overflow-y-auto">
         <Projects></Projects>
       </section>
     </div>
   );
 }
 
-export default YVR;
+export default Sandbox;

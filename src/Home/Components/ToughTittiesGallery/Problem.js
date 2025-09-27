@@ -1,22 +1,50 @@
 function Problem() {
   return (
-    <div className="md:grid md:grid-cols-4 md:gap-5  lg:mx-20 md:mx-10 mx-6 pb-6 md:pb-10 lg:pb-20">
-      <section className="mb-4">
-        <p
-          className="font-Manrope lg:text-lg text-grey 
-        uppercase border border-grey text-center w-2/3 md:w-5/6 rounded-full lg:py-[2px]"
-        >
-          Problem Statement
-        </p>
-      </section>
-      <div className="md:col-span-2">
-        <p className="mb-3">How might we...</p>
-        <p className="text-2xl">
-          help customers who support women empowerment better connect with the
-          business by building a sense of community in a space that has a desire
-          of belonging and interactions?
+    <div className=" w-full mb-16" id="Problem">
+      <h1 className="font-DM text-pinkie uppercase mb-6">Problem</h1>
+      <div className="mb-10">
+        <h1 className="font-DM uppercase opacity-60 mb-2">Business Needs</h1>
+        <p className="font-DM">
+          Through our talk with Hands, we pinpointed that Tough Titties Designs
+          needed a seamless user experience that unifies physical and digital
+          touchpoints while supporting meaningful community connections.
         </p>
       </div>
+      <div className="mb-10">
+        <h1 className="font-DM uppercase opacity-60 mb-2">User Needs</h1>
+        <div className="grid grid-cols-2 gap-x-10">
+          <p className="font-DM">
+            Through conversations with both previous and potential customers of
+            Tough Titties Designs, along with analyzing their digital presence
+            across platforms such as Etsy, Instagram, and Reddit, we identified
+            key needs and pain points.
+          </p>
+          <div className="font-DM text-lg leading-tight">
+            <h2 className="mb-8">
+              Around 50% of Hands’ customers write private purchase notes to her
+              during online shopping.
+            </h2>
+            <h2 className="mb-8">
+              Customers often to share their experiences and motivations on Etsy
+              reviews.
+            </h2>
+            <h2 className="">
+              Supporters of women empowerment find representation important for
+              them;{" "}
+              <span className="text-base">
+                3 out of 7 interviewees expressed that they felt relieved to
+                know that different boob shapes are common when they saw Hands’
+                products.
+              </span>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <p className="font-DM mb-12">
+        This revealed a desire for storytelling and sharing experiences within
+        Tough Titties Designs, highlighting a current disconnect in the current
+        space.
+      </p>
     </div>
   );
 }

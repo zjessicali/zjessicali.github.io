@@ -4,16 +4,17 @@ export const content = ["./src/**/*.{html,js}"];
 export const theme = {
   extend: {
     colors: {
-      pinkie: "#F0C9D4",
-      porple: "#2C1733",
-      white: "#EEEBEE",
-      grey: "#7E787E",
+      pinkie: "#FF5CB6",
+      white: "#FBF6F8",
+      black: "#696969",
     },
     fontFamily: {
       Manrope: ["Manrope", "sans-serif"],
+      DM: ["DM Sans", "sans-serif"],
     },
     screens: {
-      lg: "1160px",
+      md: "1201px",
+      lg: "1421px",
     },
     animation: {
       fadeUp: "fadeUp 0.5s ease-out",

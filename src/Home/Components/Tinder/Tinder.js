@@ -1,13 +1,15 @@
 import SidePanel from "../SidePanel";
 import { DATA } from "../data";
-import { useState, useEffect } from "react";
 
 import Overview from "./Overview";
-import Projects from "./Projects";
+import Problem from "./Problem";
+import Solution from "./Solution";
 
-function YVR() {
-  var YVR = DATA.projects[0];
-  var sections = ["Overview", "Projects"];
+import { useState, useEffect } from "react";
+
+function Tinder() {
+  var TTG = DATA.projects[1];
+  var sections = ["Overview", "Problem", "Solution"];
 
   const [height, setHeight] = useState(window.innerHeight - 60);
 
@@ -29,17 +31,18 @@ function YVR() {
     >
       <section className="">
         <SidePanel
-          project={YVR.title}
-          blurb={YVR.blurb}
+          project={TTG.title}
+          blurb={TTG.blurb}
           sections={sections}
         ></SidePanel>
       </section>
-      <section className="col-span-3 overflow-y-scroll">
+      <section className="col-span-3 h-full overflow-y-scroll">
         <Overview></Overview>
-        <Projects></Projects>
+        <Problem></Problem>
+        <Solution></Solution>
       </section>
     </div>
   );
 }
 
-export default YVR;
+export default Tinder;

@@ -3,24 +3,21 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <>
-      <div className="z-50 md:hidden fixed bottom-0 flex justify-between px-6 w-full h-12 items-center border-t border-grey bg-white lg:text-base md:text-sm ">
-        <Link to="/" className="font-Manrope md:hidden">
+      <div className="max-[461px]:block text-grey grid grid-cols-4 gap-10 p-5 w-full text-sm opacity-60">
+        <Link
+          to="/"
+          className="font-DM animate-fadeUp hover-link inline-block w-fit"
+        >
           ✧ jessica
         </Link>
-      </div>
-      <div className="hidden md:flex bg-pinkie z-50 justify-between md:px-10 lg:px-20 py-8 w-full h-12 items-center">
-        <Link to="/" className="font-Manrope  animate-fadeUp">
-          ✧ jessica
-        </Link>
-        <div className="animate-fadeUp flex">
-          <h1 className="font-Manrope px-4">
-            <a href="https://www.linkedin.com/in/jessica-li-029281201/">
-              linkedin
-            </a>
-          </h1>
-          <h1 className="font-Manrope">
-            <a href="mailto:z.jessicali2001@gmail.com">email</a>
-          </h1>
+        <div className="max-[461px]:hidden animate-fadeUp flex col-span-3 gap-x-10">
+          <Link className="font-DM hover-link" to="/">
+            projects
+          </Link>
+          <Link className="font-DM hover-link" to="/sandbox">
+            sandbox
+          </Link>
+          {/* <h1 className="font-DM hover-link">about</h1> */}
         </div>
       </div>
       <div></div>

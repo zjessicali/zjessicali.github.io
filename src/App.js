@@ -2,10 +2,9 @@ import "./App.css";
 import Main from "./Main";
 import Nav from "./Home/Components/Nav";
 import About from "./Home/Components/About/About";
-import WaysOfWater from "./Home/Components/WaysOfWater/WaysOfWater";
-import Typology from "./Home/Components/Typology/Typology";
 import YVR from "./Home/Components/YVR/YVR";
-import SojuEvents from "./Home/Components/SojuEvents/SojuEvents";
+import Tinder from "./Home/Components/Tinder/Tinder";
+import Sandbox from "./Home/Components/Sandbox/Sandbox";
 
 import {
   Outlet,
@@ -23,11 +22,10 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Main />} />
           <Route path="/about" element={<About />} />
+          <Route path="/sandbox" element={<Sandbox />} />
           <Route path="toughtittiesgallery" element={<ToughTittiesGallery />} />
-          <Route path="waysofwater" element={<WaysOfWater />} />
-          <Route path="typology" element={<Typology />} />
           <Route path="YVRAirport" element={<YVR />} />
-          <Route path="sojuevents" element={<SojuEvents />} />
+          <Route path="Tinder" element={<Tinder />}></Route>
         </Route>
       </Routes>
     </HashRouter>
@@ -36,10 +34,10 @@ function App() {
 
 function Layout() {
   return (
-    <>
+    <div className="">
       <Nav />
       <Outlet />
-    </>
+    </div>
   );
 }
 
