@@ -4,6 +4,7 @@ import Nav from "./Home/Components/Nav";
 import About from "./Home/Components/About/About";
 import YVR from "./Home/Components/YVR/YVR";
 import Tinder from "./Home/Components/Tinder/Tinder";
+import Sandbox from "./Home/Components/Sandbox/Sandbox";
 
 import {
   Outlet,
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Main />} />
           <Route path="/about" element={<About />} />
+          <Route path="/sandbox" element={<Sandbox />} />
           <Route path="toughtittiesgallery" element={<ToughTittiesGallery />} />
           <Route path="YVRAirport" element={<YVR />} />
           <Route path="Tinder" element={<Tinder />}></Route>

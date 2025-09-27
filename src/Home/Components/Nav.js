@@ -14,8 +14,10 @@ const Nav = () => {
           <Link className="font-DM hover-link" to="/">
             projects
           </Link>
-          <h1 className="font-DM hover-link">sandbox</h1>
-          <h1 className="font-DM hover-link">about</h1>
+          <Link className="font-DM hover-link" to="/sandbox">
+            sandbox
+          </Link>
+          {/* <h1 className="font-DM hover-link">about</h1> */}
         </div>
       </div>
       <div></div>
