@@ -22,10 +22,10 @@ function Sandbox() {
       className={`p-5 grid grid-cols-4 gap-x-10 w-full `}
       style={{ height: `${height}px` }}
     >
-      <section className="">
+      <section className="animate-fadeUp">
         <MainSidePanel></MainSidePanel>
       </section>
-      <section className="col-span-3 h-auto overflow-y-auto">
+      <section className="col-span-3 h-auto overflow-y-auto animate-fadeUp">
         <Projects></Projects>
       </section>
     </div>

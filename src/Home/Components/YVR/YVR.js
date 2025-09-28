@@ -34,7 +34,7 @@ function YVR() {
           sections={sections}
         ></SidePanel>
       </section>
-      <section className="col-span-3 overflow-y-scroll">
+      <section className="col-span-3 overflow-y-scroll animate-fadeUp">
         <Overview></Overview>
         <Projects></Projects>
       </section>
