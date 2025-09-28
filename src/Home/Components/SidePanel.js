@@ -15,7 +15,7 @@ function SidePanel({ project, blurb, sections }) {
                   .getElementById(item)
                   ?.scrollIntoView({ behavior: "smooth" })
               }
-              className=" font-DM text-sm hover-link"
+              className=" font-DM text-sm hover-link hover:translate-x-2 transition-transform duration-700 ease-in-out"
             >
               {item}
               <br></br>
@@ -23,7 +23,7 @@ function SidePanel({ project, blurb, sections }) {
           );
         })}
       </nav>
-      <p className="absolute bottom-0 right-[-16px] leading-tight text-[7px] md:text-[9px] lg:text-xs text-grey opacity-30">
+      <p className="absolute bottom-0 right-[-16px] leading-tight text-[7px] md:text-[9px] lg:text-xs text-grey opacity-30 z-0 pointer-events-none select-none">
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br></br>
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⢀⣠⠤⣶⣶⣤⣀⡀⠀⠀<br></br>
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⠟⢦⣤⡄⠒⠋⠁⠀⠀⢻⡝⢧⠀<br></br>

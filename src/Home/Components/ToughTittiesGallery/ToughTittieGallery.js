@@ -46,7 +46,7 @@ function ToughTittiesGallery() {
           sections={sections}
         ></SidePanel>
       </section>
-      <section className="col-span-3 h-full overflow-y-scroll">
+      <section className="col-span-3 h-full overflow-y-scroll animate-fadeUp">
         <Overview></Overview>
         <Client></Client>
         <Problem></Problem>
