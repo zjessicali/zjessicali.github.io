@@ -11,7 +11,7 @@ import Impact from "./Impact";
 import { useState, useEffect } from "react";
 
 function ToughTittiesGallery() {
-  var TTG = DATA.projects[2];
+  var TTG = DATA.projects[1];
   var sections = [
     "Overview",
     "Client",
