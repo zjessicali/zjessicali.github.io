@@ -8,7 +8,7 @@ export const DATA = {
       context: "Internship, 2024",
       linkpath: "/YVRAirport",
       blurb:
-        "8 month internship as a Content & Design Co-op with the Vancouver Airport Authority with the design team.",
+        "8 month internship as a Content & Design Co-op with the Vancouver Airport Authority in the design team.",
     },
 
     {
