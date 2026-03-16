@@ -10,7 +10,7 @@ function Fair() {
   return (
     <>
       <section className="mb-16">
-        <h1 className="font-DM opacity-60 uppercase mb-4">Digital Twin UI</h1>
+        <h1 className="font-DM opacity-60 uppercase mb-4">Summer Fair</h1>
         <div className="mb-8">
           {/* CAROUSELLLL */}
           <Carousel images={images}></Carousel>
