@@ -5,6 +5,7 @@ import About from "./Home/Components/About/About";
 import YVR from "./Home/Components/YVR/YVR";
 import Tinder from "./Home/Components/Tinder/Tinder";
 import Sandbox from "./Home/Components/Sandbox/Sandbox";
+import WaysOfWater from "./Home/Components/WaysOfWater/WaysOfWater";
 
 import {
   Outlet,
@@ -26,6 +27,7 @@ function App() {
           <Route path="toughtittiesgallery" element={<ToughTittiesGallery />} />
           <Route path="YVRAirport" element={<YVR />} />
           <Route path="Tinder" element={<Tinder />}></Route>
+          <Route path="Water" element={<WaysOfWater />}></Route>
         </Route>
       </Routes>
     </HashRouter>

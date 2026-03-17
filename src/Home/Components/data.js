@@ -31,5 +31,15 @@ export const DATA = {
       blurb:
         "Creating more comfortable offline interactions by giving users control over when to receive date requests and an easy way to say no.",
     },
+    {
+      imgpath:
+        "https://res.cloudinary.com/de9qkjreb/image/upload/v1749861589/Microsite_nuflzh.jpg",
+      title: "The Ways of Water",
+      tags: "Art Direction, Interaction Design",
+      context: "Academic, 2022",
+      linkpath: "/Water",
+      blurb:
+        "An immersive and expressive microsite for a group exhibition connecting water and humankind.",
+    },
   ],
 };
