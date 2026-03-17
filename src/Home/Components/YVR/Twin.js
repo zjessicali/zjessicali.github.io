@@ -2,6 +2,7 @@ import Carousel from "../Carousel";
 
 function Twin() {
   const images = [
+    "https://res.cloudinary.com/de9qkjreb/image/upload/v1773720287/splash_screen_n5ipfd.png",
     "https://res.cloudinary.com/de9qkjreb/image/upload/v1759015882/DT1_j4wzpr.png",
     "https://res.cloudinary.com/de9qkjreb/image/upload/v1759015874/DT2_g0z5xe.jpg",
   ];
@@ -18,13 +19,13 @@ function Twin() {
           <p>
             As one of my first projects, I was assigned work on the Digital
             Twin, a software that mirrors terminal activities for YVR employees.
-            The team requested new login screens and asked for a Musqueam
-            element on the main page. Rather than simply adding a piece of
-            artwork, I considered how to incorporate it in a more meaningful
+            The team requested some new, branded screens and asked for a
+            Musqueam element on the main page. Rather than simply adding a piece
+            of artwork, I considered how to incorporate it in a more meaningful
             way.{" "}
           </p>
           <p>
-            The login screens were successfully implemented into the product,
+            The splash screens were successfully implemented into the product,
             and the Musqueam team responded positively to the land
             acknowledgement interaction, noting their appreciation during the
             approval process.{" "}
