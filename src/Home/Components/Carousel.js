@@ -15,13 +15,13 @@ function Carousel({ images }) {
 
   // const thumbnail=/(images.length+1);
   return (
-    <div className="w-full">
+    <div className="w-full relative">
       {/* Main Image */}
-      <div className="relative">
+      <div className="relative h-72 md:h-[460px] w-full flex items-center justify-center">
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex}`}
-          className="w-full object-cover rounded-md"
+          className="h-full object-contain rounded-md"
         />
       </div>
 
