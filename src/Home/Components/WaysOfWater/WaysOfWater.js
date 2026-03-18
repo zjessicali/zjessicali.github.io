@@ -15,10 +15,10 @@ function ToughTittiesGallery() {
   var sections = [
     "Overview",
     "Client",
-    "Problem",
     "Solution",
+    "Features",
+    "Process",
     "Reflection",
-    "Impact",
   ];
 
   const [height, setHeight] = useState(window.innerHeight - 60);
