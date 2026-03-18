@@ -15,7 +15,7 @@ function SidePanel({ project, blurb, sections }) {
                   .getElementById(item)
                   ?.scrollIntoView({ behavior: "smooth" })
               }
-              className=" font-DM text-sm hover-link hover:translate-x-2 transition-transform duration-700 ease-in-out"
+              className=" font-DM text-sm hover-link transition-transform duration-700 ease-in-out"
             >
               {item}
               <br></br>
