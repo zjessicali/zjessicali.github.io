@@ -41,7 +41,7 @@ function Projects() {
 
         <Link
           to="https://www.sfu.ca/idc/2023/"
-          className="h-40 md:h-60 lg:h-80"
+          className="h-32 md:h-40 lg:h-60"
           onMouseEnter={() => setHoveredItem(projs.touchpoint)}
           onMouseLeave={() => setHoveredItem(null)}
         >

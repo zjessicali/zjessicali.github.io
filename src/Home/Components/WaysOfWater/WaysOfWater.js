@@ -36,7 +36,7 @@ function ToughTittiesGallery() {
 
   return (
     <div
-      className={`p-5 grid grid-cols-4 gap-x-10 w-full `}
+      className={`p-5 grid grid-cols-4 gap-x-10 w-full scrollbar-thin-custom`}
       style={{ height: `${height}px` }}
     >
       <section className="">

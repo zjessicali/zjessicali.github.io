@@ -13,12 +13,12 @@ function Projects() {
       className="w-full relative"
       onMouseMove={(e) => setPos({ x: e.clientX, y: e.clientY })}
     >
-      <div className="w-full grid grid-cols-2 gap-10 pb-5 z-40 font-DM">
+      <div className="w-full grid grid-cols-2 gap-10 pb-5 z-40 font-DM scrollbar-thin-custom">
         {projects.map((item, i) => {
           return (
             <Link
               to={item.linkpath}
-              className="h-40 md:h-60 lg:h-80"
+              className="h-32 md:h-40 lg:h-60"
               onMouseEnter={() => setHoveredItem(item)}
               onMouseLeave={() => setHoveredItem(null)}
             >
