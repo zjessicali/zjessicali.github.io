@@ -8,7 +8,7 @@ export const DATA = {
       context: "Internship, 2024",
       linkpath: "/YVRAirport",
       blurb:
-        "8 month internship as a Content & Design Co-op with the Vancouver Airport Authority with the design team.",
+        "8 month internship as a Content & Design Co-op with the Vancouver Airport Authority in the design team.",
     },
 
     {
@@ -30,6 +30,16 @@ export const DATA = {
       linkpath: "/Tinder",
       blurb:
         "Creating more comfortable offline interactions by giving users control over when to receive date requests and an easy way to say no.",
+    },
+    {
+      imgpath:
+        "https://res.cloudinary.com/de9qkjreb/image/upload/v1749861589/Microsite_nuflzh.jpg",
+      title: "The Ways of Water",
+      tags: "Art Direction, Interaction Design",
+      context: "Academic, 2022",
+      linkpath: "/Water",
+      blurb:
+        "An immersive and expressive microsite for a group exhibition connecting water and humankind.",
     },
   ],
 };

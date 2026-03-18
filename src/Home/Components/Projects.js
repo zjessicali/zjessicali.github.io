@@ -36,7 +36,7 @@ function Projects() {
         <img
           src={hoveredItem.imgpath}
           alt={hoveredItem.title}
-          className="w-[30vw] h-auto fixed pointer-events-none rounded z-0"
+          className="w-[20vw] h-auto fixed pointer-events-none rounded z-0"
           style={{
             top: pos.y + 36, // offset from cursor
             left: pos.x + 16,
