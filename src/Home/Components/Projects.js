@@ -13,7 +13,7 @@ function Projects() {
       className="w-full relative"
       onMouseMove={(e) => setPos({ x: e.clientX, y: e.clientY })}
     >
-      <div className="w-full grid grid-cols-2 gap-10 pb-5 z-40 font-DM">
+      <div className="w-full grid grid-cols-2 gap-10 pb-5 z-40 font-DM scrollbar-thin-custom">
         {projects.map((item, i) => {
           return (
             <Link

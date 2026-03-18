@@ -27,11 +27,11 @@ function Main() {
         </section>
         <section className="col-span-3 h-auto overflow-y-auto animate-fadeUp relative">
           <Projects></Projects>
-          <div className="">
+          {/* <div className="">
             <h2 className="absolute bottom-0 font-DM opacity-60">
               portfolio designed + coded by me :3
             </h2>
-          </div>
+          </div> */}
         </section>
       </div>
       <div
