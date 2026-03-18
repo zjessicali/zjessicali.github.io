@@ -18,7 +18,7 @@ function Projects() {
           return (
             <Link
               to={item.linkpath}
-              className="h-40 md:h-60 lg:h-80"
+              className="h-32 md:h-40 lg:h-60"
               onMouseEnter={() => setHoveredItem(item)}
               onMouseLeave={() => setHoveredItem(null)}
             >
