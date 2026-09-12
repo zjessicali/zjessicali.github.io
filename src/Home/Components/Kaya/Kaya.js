@@ -14,11 +14,11 @@ function Kaya() {
   var kaya = DATA.projects[4];
   var sections = [
     "Overview",
-    "Client",
+    "Context",
     "Problem",
     "Solution",
-    "Reflection",
     "Impact",
+    "Reflection",
   ];
 
   const [height, setHeight] = useState(window.innerHeight - 60);
@@ -51,8 +51,8 @@ function Kaya() {
         <Context></Context>
         <Problem></Problem>
         <Solution></Solution>
-        <Reflection></Reflection>
         <Impact></Impact>
+        <Reflection></Reflection>
       </section>
     </div>
   );
