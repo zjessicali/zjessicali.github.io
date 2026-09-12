@@ -6,6 +6,8 @@ import YVR from "./Home/Components/YVR/YVR";
 import Tinder from "./Home/Components/Tinder/Tinder";
 import Sandbox from "./Home/Components/Sandbox/Sandbox";
 import WaysOfWater from "./Home/Components/WaysOfWater/WaysOfWater";
+import ToughTittiesGallery from "./Home/Components/WaysOfWater/WaysOfWater";
+import Kaya from "./Home/Components/Kaya/Kaya";
 
 import {
   Outlet,
@@ -14,7 +16,6 @@ import {
   BrowserRouter,
   HashRouter,
 } from "react-router-dom";
-import ToughTittiesGallery from "./Home/Components/ToughTittiesGallery/ToughTittieGallery";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="YVRAirport" element={<YVR />} />
           <Route path="Tinder" element={<Tinder />}></Route>
           <Route path="Water" element={<WaysOfWater />}></Route>
+          <Route path="Kaya" element={<Kaya />}></Route>
         </Route>
       </Routes>
     </HashRouter>

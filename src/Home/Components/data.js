@@ -41,5 +41,14 @@ export const DATA = {
       blurb:
         "An immersive and expressive microsite for a group exhibition connecting water and humankind.",
     },
+    {
+      imgpath:
+        "https://res.cloudinary.com/de9qkjreb/image/upload/v1749861589/Microsite_nuflzh.jpg",
+      title: "Kaya Beta Journals",
+      tags: "UX Design, Product Design",
+      context: "Academic, 2024",
+      linkpath: "/Kaya",
+      blurb: "x",
+    },
   ],
 };
