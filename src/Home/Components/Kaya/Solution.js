@@ -33,7 +33,7 @@ function Solution() {
       </section>
       <section>
         {/* videos go here */}
-        <p className="font-DM">
+        <p className="font-DM mb-6">
           The Beta Journal serves as a centralized platform which empowers
           outdoor boulders to confidently capture and reflect on their climbing
           narrative, fostering a deeper sense of accomplishment and continuous
