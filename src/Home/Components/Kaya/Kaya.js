@@ -11,7 +11,7 @@ import Impact from "./Impact";
 import { useState, useEffect } from "react";
 
 function Kaya() {
-  var kaya = DATA.projects[4];
+  var kaya = DATA.projects[0];
   var sections = [
     "Overview",
     "Context",

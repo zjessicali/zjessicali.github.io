@@ -6,7 +6,7 @@ import YVR from "./Home/Components/YVR/YVR";
 import Tinder from "./Home/Components/Tinder/Tinder";
 import Sandbox from "./Home/Components/Sandbox/Sandbox";
 import WaysOfWater from "./Home/Components/WaysOfWater/WaysOfWater";
-import ToughTittiesGallery from "./Home/Components/WaysOfWater/WaysOfWater";
+import ToughTittiesGallery from "./Home/Components/ToughTittiesGallery/ToughTittiesGallery";
 import Kaya from "./Home/Components/Kaya/Kaya";
 
 import {

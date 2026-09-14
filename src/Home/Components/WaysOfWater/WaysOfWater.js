@@ -11,7 +11,7 @@ import Process from "./Process";
 import { useState, useEffect } from "react";
 
 function ToughTittiesGallery() {
-  var WW = DATA.projects[3];
+  var WW = DATA.projects[4];
   var sections = [
     "Overview",
     "Client",

@@ -8,7 +8,7 @@ import Solution from "./Solution";
 import { useState, useEffect } from "react";
 
 function Tinder() {
-  var TTG = DATA.projects[2];
+  var TTG = DATA.projects[3];
   var sections = ["Overview", "Problem", "Solution"];
 
   const [height, setHeight] = useState(window.innerHeight - 60);

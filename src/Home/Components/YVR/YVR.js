@@ -6,7 +6,7 @@ import Overview from "./Overview";
 import Projects from "./Projects";
 
 function YVR() {
-  var YVR = DATA.projects[0];
+  var YVR = DATA.projects[1];
   var sections = ["Overview", "Projects"];
 
   const [height, setHeight] = useState(window.innerHeight - 60);

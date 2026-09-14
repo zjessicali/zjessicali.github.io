@@ -40,13 +40,16 @@ function Solution() {
           growth.
         </p>
         {/* more videos */}
-        <p className="font-DM">
+        <p className="font-DM mb-6">
           To support this, we restructured the app’s information architecture
           around journals, allowing users to access a dedicated journal for each
           boulder and track their progress throughout a project. I proposed
           adding the ability to take notes and annotate on specific frames of
           climbing videos, creating a more seamless way to document beta and
           revisit insights from previous attempts.
+        </p>
+        <p className="font-DM">
+          Feel free to contact me if you want to see some prototypes :)
         </p>
         <img
           src="https://res.cloudinary.com/de9qkjreb/image/upload/v1789245077/kaya_architecture_xx5fp7.png"
