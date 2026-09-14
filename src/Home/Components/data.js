@@ -43,12 +43,13 @@ export const DATA = {
     },
     {
       imgpath:
-        "https://res.cloudinary.com/de9qkjreb/image/upload/v1749861589/Microsite_nuflzh.jpg",
+        "https://res.cloudinary.com/de9qkjreb/image/upload/v1789369495/kaya_ssb6ex.png",
       title: "Kaya Beta Journals",
       tags: "UX Design, Product Design",
       context: "Academic, 2024",
       linkpath: "/Kaya",
-      blurb: "x",
+      blurb:
+        "Reimagining KAYA’s climbing experience to help climbers log, reflect on, and progress through every session.",
     },
   ],
 };

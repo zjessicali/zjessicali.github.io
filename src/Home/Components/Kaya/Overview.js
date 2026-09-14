@@ -2,7 +2,7 @@ function Overview() {
   return (
     <div className=" w-full mb-16" id="Overview">
       <img
-        src="https://res.cloudinary.com/de9qkjreb/image/upload/v1758679656/Icon_olfdvn.png"
+        src="https://res.cloudinary.com/de9qkjreb/image/upload/v1789369495/kaya_ssb6ex.png"
         alt="Kaya Beta Journals"
         className="w-full   rounded-lg"
       ></img>

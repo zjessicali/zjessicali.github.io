@@ -8,7 +8,7 @@ function Context() {
           <img
             src="https://res.cloudinary.com/de9qkjreb/image/upload/v1789193622/Kaya_Context_Graph_csd9hx.png"
             alt="What Kaya offers"
-            className="w-full h-auto my-8"
+            className="w-full h-auto mt-8 mb-24"
           ></img>
           <p className="font-DM mb-8">
             KAYA offers boulders a streamlined way to locate, track and find
