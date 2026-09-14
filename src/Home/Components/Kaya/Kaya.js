@@ -1,13 +1,25 @@
 import SidePanel from "../SidePanel";
 import { DATA } from "../data";
-import { useState, useEffect } from "react";
 
 import Overview from "./Overview";
-import Projects from "./Projects";
+import Context from "./Context";
+import Problem from "./Problem";
+import Solution from "./Solution";
+import Reflection from "./Reflection";
+import Impact from "./Impact";
 
-function YVR() {
-  var YVR = DATA.projects[1];
-  var sections = ["Overview", "Projects"];
+import { useState, useEffect } from "react";
+
+function Kaya() {
+  var kaya = DATA.projects[0];
+  var sections = [
+    "Overview",
+    "Context",
+    "Problem",
+    "Solution",
+    "Impact",
+    "Reflection",
+  ];
 
   const [height, setHeight] = useState(window.innerHeight - 60);
 
@@ -29,17 +41,21 @@ function YVR() {
     >
       <section className="">
         <SidePanel
-          project={YVR.title}
-          blurb={YVR.blurb}
+          project={kaya.title}
+          blurb={kaya.blurb}
           sections={sections}
         ></SidePanel>
       </section>
-      <section className="col-span-3 overflow-y-scroll animate-fadeUp">
+      <section className="col-span-3 h-full overflow-y-scroll animate-fadeUp">
         <Overview></Overview>
-        <Projects></Projects>
+        <Context></Context>
+        <Problem></Problem>
+        <Solution></Solution>
+        <Impact></Impact>
+        <Reflection></Reflection>
       </section>
     </div>
   );
 }
 
-export default YVR;
+export default Kaya;
